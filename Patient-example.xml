@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  
+
+test comment for display
+
+ -->
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="example"/>
+  <meta>
+    <profile value="http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>My awesome extension</b>: false</p><p><b>name</b>: Jack Smith , John Jacob Jingleheimer Smith (OFFICIAL), John Jacob Jingleheimer Smith (OFFICIAL)</p></div>
+  </text>
+  <extension url="http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension">
+    <valueBoolean value="false"/>
+  </extension>
+  <name>
+    <use value="usual"/>
+    <family value="Smith"/>
+    <given value="Jack"/>
+  </name>
+  <name>
+    <use value="official"/>
+    <family value="Smith"/>
+    <given value="John"/>
+    <given value="Jacob"/>
+    <given value="Jingleheimer"/>
+    <period>
+      <end value="2001-01-01"/>
+    </period>
+  </name>
+  <name>
+    <use value="official"/>
+    <family value="Smith"/>
+    <given value="John"/>
+    <given value="Jacob"/>
+    <given value="Jingleheimer"/>
+    <period>
+      <start value="2001-01-01"/>
+    </period>
+  </name>
+</Patient>

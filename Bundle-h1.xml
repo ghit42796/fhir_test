@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="h1"/>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://somewhere.org/fhir/uv/myig/Provenance/h1-1"/>
+    <resource>
+      <Provenance>
+        <id value="h1-1"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>target</b>: <a href="https://simplifier.net/resolve?scope=de.medizininformatikinitiative.kerndatensatz.fall@0.9.1&amp;canonical=https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.fall/0.9.1/files/131317/StructureDefinition/myObservation">StructureDefinition/myObservation</a></p><p><b>occurred</b>: 2015-11-30</p><p><b>reason</b>: <span title="Codes: ">Add "conductible" property to ActRelationshipType and ParticipationType codes.for ContextConduction RIM Change. And create Concept domain CodeSystem and ValueSet for ContextConductionStyle</span></p><p><b>activity</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-DataOperation UPDATE}">revise</span></p><blockquote><p><b>agent</b></p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/provenance-participant-type author}">Author</span></p><p><b>who</b>: <span>Rob Hausam</span></p></blockquote><blockquote><p><b>agent</b></p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/provenance-participant-type verifier}">Verifier</span></p><p><b>who</b>: <span>Vocab</span></p></blockquote></div>
+        </text>
+        <target>
+          <reference value="StructureDefinition/myObservation"/>
+        </target>
+        <occurredDateTime value="2015-11-30"/>
+        <reason>
+          <text value="Add &quot;conductible&quot; property to ActRelationshipType and ParticipationType codes.for ContextConduction RIM Change. And create Concept domain CodeSystem and ValueSet for ContextConductionStyle"/>
+        </reason>
+        <activity>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-DataOperation"/>
+            <code value="UPDATE"/>
+          </coding>
+        </activity>
+        <agent>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+              <code value="author"/>
+            </coding>
+          </type>
+          <who>
+            <display value="Rob Hausam"/>
+          </who>
+        </agent>
+        <agent>
+          <type>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
+              <code value="verifier"/>
+            </coding>
+          </type>
+          <who>
+            <display value="Vocab"/>
+          </who>
+        </agent>
+      </Provenance>
+    </resource>
+  </entry>
+</Bundle>

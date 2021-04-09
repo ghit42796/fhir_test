@@ -1,0 +1,129 @@
+﻿YourComputableMyIGNameHere : Validation Results
+=========================================
+
+err = 42, warn = 35, info = 0
+IG Publisher Version: 1.1.65
+Generated Thu Apr 08 16:43:01 CST 2021. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+
+ Build Errors : 5 / 5 / 0
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\examples\Binary-example : 0 / 0 / 1
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\examples\Library-example : 5 / 1 / 1
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\examples\Patient-example : 0 / 0 / 3
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\history\h1 : 4 / 1 / 2
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\history\h1 : 4 / 1 / 2
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\myig : 0 / 0 / 1
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\Immunization_Profile : 20 / 23 / 1
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\Patient_Profile : 4 / 1 / 1
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\library-example-image : 1 / 0 / 1
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\library-example-sql : 1 / 0 / 1
+ C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\valueset-no-codesystem : 0 / 2 / 1
+ not relevant : 0 / 1 / 3
+</table>
+== n/a ==
+WARNING: ImplementationGuide.dependency[0].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+ERROR: C:\Workspace\Python\FHIR_IG\vaccine-ig\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/valueset-no-codesystem.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Bundle/h1.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/h1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Binary/example.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Binary/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Library/example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Workspace\Python\FHIR_IG\vaccine-ig\output\Library-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 186, column 3878: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\vaccine-ig\output\StructureDefinition-vaccine-credential-immunization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 620, column 273: The link 'conformance.html' for "conformance requirements" cannot be resolved
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\examples\Binary-example.json ==
+INFORMATION: Binary/example: Binary: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Binary
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\examples\Library-example.json ==
+ERROR: Library: Unrecognised property '@subject'
+INFORMATION: Library/example: Library: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Library
+WARNING: Library/example: Library: lib-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: Library/example: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
+ERROR: Library/example: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
+ERROR: Library/example: Library.relatedArtifact[7].resource: Canonical URLs must be absolute URLs if they are not fragment references (TBD) 
+ERROR: Library/example: Library.dataRequirement[4].codeFilter[0].valueSet: Canonical URLs must be absolute URLs if they are not fragment references (TBD) 
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\examples\Patient-example.xml ==
+INFORMATION: Patient/example: Patient: Validate resource against profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\history\h1.json ==
+ERROR: Bundle.entry[0].resource.agent[0].type.coding: This property must be an Array, not an Object
+ERROR: Bundle.entry[0].resource.agent[1].type.coding: This property must be an Array, not an Object
+INFORMATION: Bundle/h1: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Provenance
+ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Provenance.recorded: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Provenance)
+ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).target[0]: Unable to resolve resource 'StructureDefinition/myObservation'
+WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set http://terminology.hl7.org/ValueSet/v3-PurposeOfUse (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse)
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\history\h1.json ==
+ERROR: Bundle.entry[0].resource.agent[0].type.coding: This property must be an Array, not an Object
+ERROR: Bundle.entry[0].resource.agent[1].type.coding: This property must be an Array, not an Object
+INFORMATION: Bundle/h1: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Provenance
+ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Provenance.recorded: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Provenance)
+ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).target[0]: Unable to resolve resource 'StructureDefinition/myObservation'
+WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set http://terminology.hl7.org/ValueSet/v3-PurposeOfUse (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse)
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\myig.xml ==
+INFORMATION: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\Immunization_Profile.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization'): Conformance resource C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\Immunization_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/vaccine-credential-immunization) does not match the URL (http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization)
+WARNING: http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization#Immunization.patient: Cannot check whether the target profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient is valid constraint on the base because it is not known
+WARNING: http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization#Immunization.reaction.detail: Cannot check whether the target profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation is valid constraint on the base because it is not known
+INFORMATION: StructureDefinition/vaccine-credential-immunization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[9].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/identity-assurance-level-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[19].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[20].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[21].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[27].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[32].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[33].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-route-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[55].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-funding-source-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[61].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[2].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/identity-assurance-level-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[4].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[5].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[10].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[14].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[15].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-route-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[19].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-funding-source-value-set' does not resolve
+ERROR: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[20].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation' does not resolve
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element.where(path = 'Immunization.patient'): Cannot check whether the target profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient is valid constraint on the base because it is not known
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element.where(path = 'Immunization.reaction.detail'): Cannot check whether the target profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation is valid constraint on the base because it is not known
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[2].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/identity-assurance-level-value-set on element Immunization.meta.security could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[4].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set on element Immunization.statusReason could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[5].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set on element Immunization.vaccineCode could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[6].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[10].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set on element Immunization.reportOrigin could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[14].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set on element Immunization.site could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[15].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-route-value-set on element Immunization.route could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[19].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-funding-source-value-set on element Immunization.fundingSource could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.differential.element[20].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[9].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/identity-assurance-level-value-set on element Immunization.meta.security could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[19].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set on element Immunization.statusReason could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[20].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set on element Immunization.vaccineCode could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[21].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set on element Immunization.reportOrigin could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[32].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set on element Immunization.site could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[33].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-route-value-set on element Immunization.route could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[55].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-funding-source-value-set on element Immunization.fundingSource could not be resolved
+WARNING: StructureDefinition/vaccine-credential-immunization: StructureDefinition.snapshot.element[61].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization'): The Implementation Guide contains no examples for this profile
+ERROR: C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\Immunization_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/vaccine-credential-immunization vs http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\Patient_Profile.json ==
+INFORMATION: StructureDefinition/vaccine-credential-patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/vaccine-credential-patient: StructureDefinition.snapshot.element[1].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
+ERROR: StructureDefinition/vaccine-credential-patient: StructureDefinition.snapshot.element[19].constraint[1].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
+ERROR: StructureDefinition/vaccine-credential-patient: StructureDefinition.differential.element[1].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
+ERROR: StructureDefinition/vaccine-credential-patient: StructureDefinition.differential.element[6].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/vaccine-credential-patient'): The Implementation Guide contains no examples for this profile
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\library-example-image.xml ==
+INFORMATION: Library/example-image: Library: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Library
+ERROR: Library/example-image: Library: Library.type: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Library)
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\library-example-sql.xml ==
+INFORMATION: Library/example-sql: Library: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Library
+ERROR: Library/example-sql: Library: Library.type: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Library)
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\valueset-no-codesystem.xml ==
+INFORMATION: ValueSet/valueset-no-codesystem: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/valueset-no-codesystem: ValueSet.compose[0].include[0]: Unknown System/Version specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'valueset-no-codesystem'): Error from server: Unable to provide support for code system http://not-a-known-code-system
+== C:\Workspace\Python\FHIR_IG\vaccine-ig\input\resources\resources-spreadsheet.xml ==
+INFORMATION: StructureDefinition/ext-myExtension: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/mypatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/mypractitioner: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner'): The Implementation Guide contains no examples for this profile
