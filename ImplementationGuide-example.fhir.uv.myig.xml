@@ -12,7 +12,7 @@
   <title value="Your User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-04-08T16:42:24+08:00"/>
+  <date value="2021-04-12T13:42:23+08:00"/>
   <publisher value="HL7 International - [Some] Work Group"/>
   <contact>
     <telecom>
@@ -299,6 +299,16 @@
       </reference>
       <name value="Immunization Profile"/>
       <description value="Defines a profile representing a vaccination for a vaccine credential Health Card."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/myObservation"/>
+      </reference>
+      <name value="My Observation Profile"/>
+      <description value="A profile showing the use of XML to author profiles"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

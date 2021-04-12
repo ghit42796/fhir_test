@@ -1,12 +1,5 @@
 [
   {
-    "id": "vaccine-credential-immunization",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization",
-    "version": "0.2.0",
-    "name": "Immunization"
-  },
-  {
     "id": "example.fhir.uv.myig",
     "type": "ImplementationGuide",
     "url": "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
@@ -42,6 +35,13 @@
     "name": "MyExtension"
   },
   {
+    "id": "myObservation",
+    "type": "StructureDefinition",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
+    "version": "0.2.0",
+    "name": "MyObservation"
+  },
+  {
     "id": "mypatient",
     "type": "StructureDefinition",
     "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient",
@@ -56,17 +56,24 @@
     "name": "MyPractitionerName"
   },
   {
-    "id": "vaccine-credential-patient",
-    "type": "StructureDefinition",
-    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/vaccine-credential-patient",
-    "version": "0.2.0",
-    "name": "Patient"
-  },
-  {
     "id": "valueset-no-codesystem",
     "type": "ValueSet",
     "url": "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem",
     "version": "0.2.0",
     "name": "ValueSetWithNoCodeSystem"
+  },
+  {
+    "id": "vaccine-credential-immunization",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-immunization",
+    "version": "0.2.0",
+    "name": "Immunization"
+  },
+  {
+    "id": "vaccine-credential-patient",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-patient",
+    "version": "0.2.0",
+    "name": "Patient"
   }
 ]

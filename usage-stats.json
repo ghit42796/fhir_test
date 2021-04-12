@@ -13,15 +13,15 @@
     }
   ],
   "profiles": {
-    "Immunization": [
+    "Observation": [
       {
-        "url": "http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization",
-        "title": "Immunization Profile"
+        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
+        "title": "My Observation Profile"
       }
     ],
     "Patient": [
       {
-        "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/vaccine-credential-patient",
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-patient",
         "title": "Patient Profile"
       }
     ],
@@ -29,6 +29,12 @@
       {
         "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner",
         "title": "Some Practitioner profile"
+      }
+    ],
+    "Immunization": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-immunization",
+        "title": "Immunization Profile"
       }
     ]
   },
@@ -49,8 +55,20 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-type-must-support": [
+      "StructureDefinition.differential.element.type",
+      "StructureDefinition.differential.element.type.targetProfile",
+      "StructureDefinition.snapshot.element.type",
+      "StructureDefinition.snapshot.element.type.targetProfile"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"
