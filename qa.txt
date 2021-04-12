@@ -3,7 +3,7 @@
 
 err = 51, warn = 32, info = 0
 IG Publisher Version: 1.1.65
-Generated Mon Apr 12 13:43:04 CST 2021. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Mon Apr 12 13:55:42 CST 2021. FHIR version 4.0.1 for example.fhir.uv.myig#0.2.0 (canonical = http://somewhere.org/fhir/uv/myig)
 
  Build Errors : 5 / 5 / 0
  C:\Workspace\Python\FHIR_IG\input\examples\Binary-example : 0 / 0 / 1

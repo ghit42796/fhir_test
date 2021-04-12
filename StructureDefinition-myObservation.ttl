@@ -18,7 +18,7 @@
   fhir:StructureDefinition.name [ fhir:value "MyObservation"];
   fhir:StructureDefinition.title [ fhir:value "My Observation Profile"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-12T13:42:23+08:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-12T13:55:00+08:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - [Some] Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
