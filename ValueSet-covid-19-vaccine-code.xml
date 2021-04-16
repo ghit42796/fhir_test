@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="covid-19-vaccine-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840539006">840539006</a></td><td>COVID-19</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases"/>
+  <version value="0.0.1"/>
+  <name value="CavvineCode for COVID-19"/>
+  <title value="CavvineCode for COVID-19 ValueSet"/>
+  <status value="draft"/>
+  <date value="2021-04-16"/>
+  <publisher value="TBD"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <description value="CavvineCode for COVID-19"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <concept>
+        <code value="COVID19AZ"/>
+        <display value="COVID-19 Vaccine AstraZeneca"/>
+      </concept>
+      <concept>
+        <code value="COVID19PBNT"/>
+        <display value="Pfizer-BioNTech COVID-19 Vaccine"/>
+      </concept>
+      <concept>
+        <code value="COVID19Mod"/>
+        <display value="Moderna COVID-19 Vaccine"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

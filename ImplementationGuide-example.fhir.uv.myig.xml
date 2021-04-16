@@ -7,13 +7,13 @@
 </div></div>
   </text>
   <url value="http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
-  <version value="0.2.0"/>
+  <version value="0.0.1"/>
   <name value="YourComputableMyIGNameHere"/>
   <title value="Your User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-04-12T13:55:00+08:00"/>
-  <publisher value="HL7 International - [Some] Work Group"/>
+  <date value="2021-04-16T16:57:33+08:00"/>
+  <publisher value="TBD"/>
   <contact>
     <telecom>
       <system value="url"/>
@@ -213,58 +213,8 @@
       </extension>
     </extension>
     <grouping id="resources-spreadsheet.xml">
-      <name value="not relevant"/>
+      <name value="Vaccine Passport"/>
     </grouping>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/mypatient"/>
-      </reference>
-      <name value="My Favorite Patient Profile"/>
-      <description value="Overriding description because we can"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/example-sql"/>
-      </reference>
-      <name value="Example Library"/>
-      <description value="A test example"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/example-image"/>
-      </reference>
-      <name value="Example Library Image"/>
-      <description value="A test image example"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/example"/>
-      </reference>
-      <name value="Simple patient example"/>
-      <description value="A simple example showing how examples are defined and referenced"/>
-      <exampleCanonical value="http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/valueset-no-codesystem"/>
-      </reference>
-      <name value="Value set for no code system"/>
-    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
@@ -275,29 +225,42 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Binary"/>
+        <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="Binary/example"/>
+        <reference value="StructureDefinition/Vaccine-Passport-Binary-QR-code"/>
       </reference>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/example"/>
-      </reference>
-      <name value="Example CQL Library"/>
+      <name value="Vaccine-Passport-Binary QR code Profile"/>
+      <description value="This profile defines how to represent the Vaccine Passport QR code with a Binary resource"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/vaccine-credential-immunization"/>
+        <reference value="StructureDefinition/Vaccine-Passport-Bundle"/>
       </reference>
-      <name value="Immunization Profile"/>
+      <name value="Vaccine-Passport-Bundle Profile"/>
+      <description value="This profile defines how to represent a Vaccine Passport in FHIR by using a Bundle resource"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Vaccine-Passport-ImmunizationRecommendation"/>
+      </reference>
+      <name value="Vaccine-Passport-ImmunizationRecommendation Profile"/>
+      <description value="Immunization Recommandations Profile for Vaccine Passport"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Vaccine-Passport-Immunization"/>
+      </reference>
+      <name value="Vaccine-Passport-Immunization Profile"/>
       <description value="Defines a profile representing a vaccination for a vaccine credential Health Card."/>
     </resource>
     <resource>
@@ -305,41 +268,60 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/myObservation"/>
+        <reference value="StructureDefinition/Vaccine-Passport-Observation"/>
       </reference>
-      <name value="My Observation Profile"/>
-      <description value="A profile showing the use of XML to author profiles"/>
+      <name value="Vaccine-Passport-Observation Profile"/>
+      <description value="This profile defines how to represent Test Results in a Vacccine Passport."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/vaccine-credential-patient"/>
+        <reference value="StructureDefinition/Vaccine-Passport-Organization"/>
       </reference>
-      <name value="Patient Profile"/>
-      <description value="Patient Profile for Vaccine"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ext-myExtension"/>
-      </reference>
-      <name value="MyExtension"/>
-      <description value="What this extension means."/>
-      <groupingId value="resources-spreadsheet.xml"/>
+      <name value="Vaccine-Passport-Organization Profile"/>
+      <description value="This profile defines how to represent Organization in a Vacccine Passport."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mypractitioner"/>
+        <reference value="StructureDefinition/Vaccine-Passport-Patient"/>
       </reference>
-      <name value="MyPractitionerName"/>
-      <description value="Description for the profile page"/>
+      <name value="Vaccine-Passport-Patient Profile"/>
+      <description value="Patient Profile for Vaccine Passport"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Vaccine-Passport-Practitioner"/>
+      </reference>
+      <name value="Vaccine-Passport-Practitioner  Profile"/>
+      <description value="Container for an SVC Practitioner, which is a Practitioner authorized by the PHA to vaccinate an [SVC Patient](StructureDefinition-svc-patient.html)."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/covid-19-vaccine-code"/>
+      </reference>
+      <name value="CavvineCode for COVID-19 ValueSet"/>
+      <description value="CavvineCode for COVID-19"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/zmypatient"/>
+      </reference>
+      <name value="MyPatientName"/>
+      <description value="This will be the description for the patient profile within the profile page"/>
       <groupingId value="resources-spreadsheet.xml"/>
     </resource>
     <page>

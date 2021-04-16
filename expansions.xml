@@ -1,9 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0f2acc40-5a79-40d9-bb2d-39803ffd2292"/>
+  <id value="8f1e9bcd-38fd-4ad1-8fd7-4e0f61ea049e"/>
   <meta>
-    <lastUpdated value="2021-04-12T13:55:00.284+08:00"/>
+    <lastUpdated value="2021-04-16T16:57:33.512+08:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases"/>
+    <resource>
+      <ValueSet>
+        <id value="covid-19-vaccine-code"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 0 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases"/>
+        <version value="0.0.1"/>
+        <name value="CavvineCode for COVID-19"/>
+        <title value="CavvineCode for COVID-19 ValueSet"/>
+        <status value="draft"/>
+        <date value="2021-04-16"/>
+        <publisher value="TBD"/>
+        <contact>
+          <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/Special/committees/[something]"/>
+          </telecom>
+        </contact>
+        <description value="CavvineCode for COVID-19"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9124964f-4021-4243-b5f3-21cc3c20e2de"/>
+          <timestamp value="2021-04-16T16:58:07+08:00"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

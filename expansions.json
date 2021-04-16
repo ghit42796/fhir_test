@@ -1,8 +1,47 @@
 {
   "resourceType" : "Bundle",
-  "id" : "0f2acc40-5a79-40d9-bb2d-39803ffd2292",
+  "id" : "8f1e9bcd-38fd-4ad1-8fd7-4e0f61ea049e",
   "meta" : {
-    "lastUpdated" : "2021-04-12T13:55:00.284+08:00"
+    "lastUpdated" : "2021-04-16T16:57:33.512+08:00"
   },
-  "type" : "collection"
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "covid-19-vaccine-code",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+      },
+      "url" : "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
+      "version" : "0.0.1",
+      "name" : "CavvineCode for COVID-19",
+      "title" : "CavvineCode for COVID-19 ValueSet",
+      "status" : "draft",
+      "date" : "2021-04-16",
+      "publisher" : "TBD",
+      "contact" : [{
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://hl7.org/Special/committees/[something]"
+        }]
+      }],
+      "description" : "CavvineCode for COVID-19",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:9124964f-4021-4243-b5f3-21cc3c20e2de",
+        "timestamp" : "2021-04-16T16:58:07+08:00",
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        }]
+      }
+    }
+  }]
 }

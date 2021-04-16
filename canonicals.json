@@ -1,79 +1,79 @@
 [
   {
+    "id": "Vaccine-Passport-ImmunizationRecommendation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc",
+    "version": "0.0.1",
+    "name": "Vaccine-Passport-ImmunizationRecommendation"
+  },
+  {
+    "id": "covid-19-vaccine-code",
+    "type": "ValueSet",
+    "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
+    "version": "0.0.1",
+    "name": "CavvineCode for COVID-19"
+  },
+  {
     "id": "example.fhir.uv.myig",
     "type": "ImplementationGuide",
     "url": "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
-    "version": "0.2.0",
+    "version": "0.0.1",
     "name": "YourComputableMyIGNameHere"
   },
   {
-    "id": "example",
-    "type": "Library",
-    "url": "http://somewhere.org/fhir/uv/myig/Library/example",
-    "version": "0.2.0",
-    "name": "example"
-  },
-  {
-    "id": "example-image",
-    "type": "Library",
-    "url": "http://somewhere.org/fhir/uv/myig/Library/example-image",
-    "version": "0.2.0",
-    "name": "ExampleLibraryImage"
-  },
-  {
-    "id": "example-sql",
-    "type": "Library",
-    "url": "http://somewhere.org/fhir/uv/myig/Library/example-sql",
-    "version": "0.2.0",
-    "name": "ExampleLibrary"
-  },
-  {
-    "id": "ext-myExtension",
+    "id": "zmypatient",
     "type": "StructureDefinition",
-    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/ext-myExtension",
-    "version": "0.2.0",
-    "name": "MyExtension"
-  },
-  {
-    "id": "myObservation",
-    "type": "StructureDefinition",
-    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation",
-    "version": "0.2.0",
-    "name": "MyObservation"
-  },
-  {
-    "id": "mypatient",
-    "type": "StructureDefinition",
-    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient",
-    "version": "0.2.0",
+    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/zmypatient",
+    "version": "0.0.1",
     "name": "MyPatientName"
   },
   {
-    "id": "mypractitioner",
+    "id": "Vaccine-Passport-Binary-QR-code",
     "type": "StructureDefinition",
-    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner",
-    "version": "0.2.0",
-    "name": "MyPractitionerName"
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Binary",
+    "version": "0.0.1",
+    "name": "VaccinePassportBinaryQRcode"
   },
   {
-    "id": "valueset-no-codesystem",
-    "type": "ValueSet",
-    "url": "http://somewhere.org/fhir/uv/myig/ValueSet/valueset-no-codesystem",
-    "version": "0.2.0",
-    "name": "ValueSetWithNoCodeSystem"
+    "id": "Vaccine-Passport-Bundle",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle",
+    "version": "0.0.1",
+    "name": "VaccinePassportBundle"
   },
   {
-    "id": "vaccine-credential-immunization",
+    "id": "Vaccine-Passport-Immunization",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-immunization",
-    "version": "0.2.0",
-    "name": "Immunization"
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization",
+    "version": "0.0.1",
+    "name": "Vaccine-Passport-Immunization"
   },
   {
-    "id": "vaccine-credential-patient",
+    "id": "Vaccine-Passport-Observation",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-patient",
-    "version": "0.2.0",
-    "name": "Patient"
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation",
+    "version": "0.0.1",
+    "name": "Vaccine-Passport-Observation"
+  },
+  {
+    "id": "Vaccine-Passport-Organization",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization",
+    "version": "0.0.1",
+    "name": "Vaccine-Passport-Organization"
+  },
+  {
+    "id": "Vaccine-Passport-Patient",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient",
+    "version": "0.0.1",
+    "name": "Vaccine-Passport-Patient"
+  },
+  {
+    "id": "Vaccine-Passport-Practitioner",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner",
+    "version": "0.0.1",
+    "name": "Vaccine-Passport-Practitioner"
   }
 ]
