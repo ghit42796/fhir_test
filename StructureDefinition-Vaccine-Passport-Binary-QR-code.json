@@ -15,7 +15,7 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Binary",
+  "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code",
   "version": "0.0.1",
   "name": "VaccinePassportBinaryQRcode",
   "title": "Vaccine-Passport-Binary QR code Profile",

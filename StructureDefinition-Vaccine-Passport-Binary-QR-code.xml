@@ -14,7 +14,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="https://ghit42796.github.io/fhir_test/StructureDefinition-Binary"/>
+  <url value="https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code"/>
   <version value="0.0.1"/>
   <name value="VaccinePassportBinaryQRcode"/>
   <title value="Vaccine-Passport-Binary QR code Profile"/>

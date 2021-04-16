@@ -21,7 +21,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "not-classified" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "https://ghit42796.github.io/fhir_test/StructureDefinition-Binary"];
+  fhir:StructureDefinition.url [ fhir:value "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code"];
   fhir:StructureDefinition.version [ fhir:value "0.0.1"];
   fhir:StructureDefinition.name [ fhir:value "VaccinePassportBinaryQRcode"];
   fhir:StructureDefinition.title [ fhir:value "Vaccine-Passport-Binary QR code Profile"];

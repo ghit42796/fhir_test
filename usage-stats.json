@@ -19,7 +19,7 @@
     ],
     "Binary": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Binary",
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code",
         "title": "Vaccine-Passport-Binary QR code Profile"
       }
     ],

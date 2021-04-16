@@ -3,7 +3,7 @@
 
 err = 70, warn = 70, info = 0
 IG Publisher Version: 1.1.65 Out of date - current version is 1.1.66
-Generated Fri Apr 16 17:36:55 CST 2021. FHIR version 4.0.1 for example.fhir.uv.myig#0.0.1 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Fri Apr 16 17:43:23 CST 2021. FHIR version 4.0.1 for example.fhir.uv.myig#0.0.1 (canonical = http://somewhere.org/fhir/uv/myig)
 
  Build Errors : 36 / 2 / 0
  C:\Workspace\Python\FHIR_IG\input\history\h1 : 4 / 1 / 2
@@ -78,10 +78,10 @@ WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No co
 == C:\Workspace\Python\FHIR_IG\input\myig.xml ==
 INFORMATION: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 == C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile.json ==
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Binary'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Binary-QR-code) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Binary)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Binary-QR-code) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code)
 INFORMATION: StructureDefinition/Vaccine-Passport-Binary-QR-code: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Binary'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Binary-QR-code vs https://ghit42796.github.io/fhir_test/StructureDefinition-Binary
+WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code'): The Implementation Guide contains no examples for this profile
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Binary-QR-code vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code
 == C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile.json ==
 ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Bundle) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle)
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle#Bundle.entry:composition.resource: The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-dgc cannot be checked as the profile is not known
