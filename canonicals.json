@@ -39,7 +39,7 @@
     "type": "StructureDefinition",
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle",
     "version": "0.0.1",
-    "name": "VaccinePassportBundle"
+    "name": "Vaccine-Passport-Bundle"
   },
   {
     "id": "Vaccine-Passport-Immunization",

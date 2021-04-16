@@ -17,7 +17,7 @@
   ],
   "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle",
   "version": "0.0.1",
-  "name": "VaccinePassportBundle",
+  "name": "Vaccine-Passport-Bundle",
   "title": "Vaccine-Passport-Bundle Profile",
   "status": "draft",
   "date": "2021-04-16",

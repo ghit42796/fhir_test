@@ -48,7 +48,7 @@ Verifiers SHALL assume that if an Immunization resource is provided and `isSubpo
   <name value="Vaccine-Passport-Immunization"/>
   <title value="Vaccine-Passport-Immunization Profile"/>
   <status value="draft"/>
-  <date value="2021-04-08"/>
+  <date value="2021-04-16"/>
   <publisher value="TBD"/>
   <contact>
     <telecom>

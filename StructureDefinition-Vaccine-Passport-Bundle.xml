@@ -36,7 +36,7 @@ While a Composition defines the structure, it does not actually contain the cont
   </extension>
   <url value="https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle"/>
   <version value="0.0.1"/>
-  <name value="VaccinePassportBundle"/>
+  <name value="Vaccine-Passport-Bundle"/>
   <title value="Vaccine-Passport-Bundle Profile"/>
   <status value="draft"/>
   <date value="2021-04-16"/>

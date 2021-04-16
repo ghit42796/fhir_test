@@ -23,7 +23,7 @@
   ];
   fhir:StructureDefinition.url [ fhir:value "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle"];
   fhir:StructureDefinition.version [ fhir:value "0.0.1"];
-  fhir:StructureDefinition.name [ fhir:value "VaccinePassportBundle"];
+  fhir:StructureDefinition.name [ fhir:value "Vaccine-Passport-Bundle"];
   fhir:StructureDefinition.title [ fhir:value "Vaccine-Passport-Bundle Profile"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
   fhir:StructureDefinition.date [ fhir:value "2021-04-16"^^xsd:date];

@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "VaccinePassportBinaryQRcode"];
   fhir:StructureDefinition.title [ fhir:value "Vaccine-Passport-Binary QR code Profile"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-15T17:09:44+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-16"^^xsd:date];
   fhir:StructureDefinition.publisher [ fhir:value "TBD"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

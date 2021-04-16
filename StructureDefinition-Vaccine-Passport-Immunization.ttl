@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "Vaccine-Passport-Immunization"];
   fhir:StructureDefinition.title [ fhir:value "Vaccine-Passport-Immunization Profile"];
   fhir:StructureDefinition.status [ fhir:value "draft"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-08"^^xsd:date];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-16"^^xsd:date];
   fhir:StructureDefinition.publisher [ fhir:value "TBD"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
