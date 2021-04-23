@@ -11,7 +11,7 @@
   "title": "Your User Friendly Name for MyIG Here",
   "status": "draft",
   "experimental": false,
-  "date": "2021-04-16T17:42:26+08:00",
+  "date": "2021-04-23T14:45:57+08:00",
   "publisher": "TBD",
   "contact": [
     {
@@ -467,8 +467,8 @@
         "reference": {
           "reference": "ValueSet/covid-19-vaccine-code"
         },
-        "name": "CavvineCode for COVID-19 ValueSet",
-        "description": "CavvineCode for COVID-19"
+        "name": "VaccineCode for COVID-19 ValueSet",
+        "description": "VaccineCode for COVID-19"
       },
       {
         "extension": [

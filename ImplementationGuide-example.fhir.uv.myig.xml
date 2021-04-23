@@ -12,7 +12,7 @@
   <title value="Your User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-04-16T17:42:26+08:00"/>
+  <date value="2021-04-23T14:45:57+08:00"/>
   <publisher value="TBD"/>
   <contact>
     <telecom>
@@ -310,8 +310,8 @@
       <reference>
         <reference value="ValueSet/covid-19-vaccine-code"/>
       </reference>
-      <name value="CavvineCode for COVID-19 ValueSet"/>
-      <description value="CavvineCode for COVID-19"/>
+      <name value="VaccineCode for COVID-19 ValueSet"/>
+      <description value="VaccineCode for COVID-19"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

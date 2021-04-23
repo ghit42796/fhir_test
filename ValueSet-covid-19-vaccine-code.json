@@ -7,8 +7,8 @@
   },
   "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
   "version": "0.0.1",
-  "name": "CavvineCode for COVID-19",
-  "title": "CavvineCode for COVID-19 ValueSet",
+  "name": "VaccineCode for COVID-19",
+  "title": "VaccineCode for COVID-19 ValueSet",
   "status": "draft",
   "date": "2021-04-16",
   "publisher": "TBD",
@@ -22,7 +22,7 @@
       ]
     }
   ],
-  "description": "CavvineCode for COVID-19",
+  "description": "VaccineCode for COVID-19",
   "jurisdiction": [
     {
       "coding": [

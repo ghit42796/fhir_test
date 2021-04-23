@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fed18308-a27a-4e3c-be5e-8a70623b7dd5"/>
+  <id value="2e6e41be-9dd9-4323-a5b2-2f956c0229e9"/>
   <meta>
-    <lastUpdated value="2021-04-16T17:42:26.781+08:00"/>
+    <lastUpdated value="2021-04-23T14:45:57.541+08:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -32,8 +32,8 @@
         </text>
         <url value="http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases"/>
         <version value="0.0.1"/>
-        <name value="CavvineCode for COVID-19"/>
-        <title value="CavvineCode for COVID-19 ValueSet"/>
+        <name value="VaccineCode for COVID-19"/>
+        <title value="VaccineCode for COVID-19 ValueSet"/>
         <status value="draft"/>
         <date value="2021-04-16"/>
         <publisher value="TBD"/>
@@ -43,7 +43,7 @@
             <value value="http://hl7.org/Special/committees/[something]"/>
           </telecom>
         </contact>
-        <description value="CavvineCode for COVID-19"/>
+        <description value="VaccineCode for COVID-19"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -51,8 +51,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:34e6c072-02ee-4efd-a3b9-bfd5080ce1a0"/>
-          <timestamp value="2021-04-16T17:43:03+08:00"/>
+          <identifier value="urn:uuid:68a6ed51-d18d-4fb8-abb5-733f89036162"/>
+          <timestamp value="2021-04-23T14:46:32+08:00"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>

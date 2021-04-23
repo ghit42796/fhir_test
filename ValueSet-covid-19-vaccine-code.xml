@@ -7,8 +7,8 @@
   </text>
   <url value="http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases"/>
   <version value="0.0.1"/>
-  <name value="CavvineCode for COVID-19"/>
-  <title value="CavvineCode for COVID-19 ValueSet"/>
+  <name value="VaccineCode for COVID-19"/>
+  <title value="VaccineCode for COVID-19 ValueSet"/>
   <status value="draft"/>
   <date value="2021-04-16"/>
   <publisher value="TBD"/>
@@ -18,7 +18,7 @@
       <value value="http://hl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
-  <description value="CavvineCode for COVID-19"/>
+  <description value="VaccineCode for COVID-19"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "fed18308-a27a-4e3c-be5e-8a70623b7dd5",
+  "id" : "2e6e41be-9dd9-4323-a5b2-2f956c0229e9",
   "meta" : {
-    "lastUpdated" : "2021-04-16T17:42:26.781+08:00"
+    "lastUpdated" : "2021-04-23T14:45:57.541+08:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -16,8 +16,8 @@
       },
       "url" : "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
       "version" : "0.0.1",
-      "name" : "CavvineCode for COVID-19",
-      "title" : "CavvineCode for COVID-19 ValueSet",
+      "name" : "VaccineCode for COVID-19",
+      "title" : "VaccineCode for COVID-19 ValueSet",
       "status" : "draft",
       "date" : "2021-04-16",
       "publisher" : "TBD",
@@ -27,7 +27,7 @@
           "value" : "http://hl7.org/Special/committees/[something]"
         }]
       }],
-      "description" : "CavvineCode for COVID-19",
+      "description" : "VaccineCode for COVID-19",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -35,8 +35,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:34e6c072-02ee-4efd-a3b9-bfd5080ce1a0",
-        "timestamp" : "2021-04-16T17:43:03+08:00",
+        "identifier" : "urn:uuid:68a6ed51-d18d-4fb8-abb5-733f89036162",
+        "timestamp" : "2021-04-23T14:46:32+08:00",
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false

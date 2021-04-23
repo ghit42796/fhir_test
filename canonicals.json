@@ -11,7 +11,7 @@
     "type": "ValueSet",
     "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
     "version": "0.0.1",
-    "name": "CavvineCode for COVID-19"
+    "name": "VaccineCode for COVID-19"
   },
   {
     "id": "example.fhir.uv.myig",
