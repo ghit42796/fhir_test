@@ -22,7 +22,7 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc"];
+  fhir:StructureDefinition.url [ fhir:value "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-ImmunizationRecommendation"];
   fhir:StructureDefinition.version [ fhir:value "0.0.1"];
   fhir:StructureDefinition.name [ fhir:value "Vaccine-Passport-ImmunizationRecommendation"];
   fhir:StructureDefinition.title [ fhir:value "Vaccine-Passport-ImmunizationRecommendation Profile"];

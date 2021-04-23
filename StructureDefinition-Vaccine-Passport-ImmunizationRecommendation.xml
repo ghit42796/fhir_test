@@ -24,7 +24,7 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc"/>
+  <url value="https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-ImmunizationRecommendation"/>
   <version value="0.0.1"/>
   <name value="Vaccine-Passport-ImmunizationRecommendation"/>
   <title value="Vaccine-Passport-ImmunizationRecommendation Profile"/>

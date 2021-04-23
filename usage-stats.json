@@ -5,12 +5,6 @@
   "jurisdiction": "TBD",
   "extensions": [],
   "profiles": {
-    "ImmunizationRecommendation": [
-      {
-        "url": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc",
-        "title": "Vaccine-Passport-ImmunizationRecommendation Profile"
-      }
-    ],
     "Binary": [
       {
         "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code",
@@ -27,6 +21,12 @@
       {
         "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization",
         "title": "Vaccine-Passport-Immunization Profile"
+      }
+    ],
+    "ImmunizationRecommendation": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-ImmunizationRecommendation",
+        "title": "Vaccine-Passport-ImmunizationRecommendation Profile"
       }
     ],
     "Observation": [

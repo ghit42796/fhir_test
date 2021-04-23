@@ -1,12 +1,5 @@
 [
   {
-    "id": "Vaccine-Passport-ImmunizationRecommendation",
-    "type": "StructureDefinition",
-    "url": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc",
-    "version": "0.0.1",
-    "name": "Vaccine-Passport-ImmunizationRecommendation"
-  },
-  {
     "id": "Vaccine-Passport-Binary-QR-code",
     "type": "StructureDefinition",
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code",
@@ -26,6 +19,13 @@
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization",
     "version": "0.0.1",
     "name": "Vaccine-Passport-Immunization"
+  },
+  {
+    "id": "Vaccine-Passport-ImmunizationRecommendation",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-ImmunizationRecommendation",
+    "version": "0.0.1",
+    "name": "Vaccine-Passport-ImmunizationRecommendation"
   },
   {
     "id": "Vaccine-Passport-Observation",
