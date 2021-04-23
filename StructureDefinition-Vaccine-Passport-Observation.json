@@ -17,7 +17,7 @@
       "telecom": [
         {
           "system": "url",
-          "value": "http://hl7.org/Special/committees/[something]"
+          "value": "TBD"
         }
       ]
     }
@@ -27,8 +27,8 @@
     {
       "coding": [
         {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001"
+          "system": "TBD",
+          "code": "TBD"
         }
       ]
     }

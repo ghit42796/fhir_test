@@ -44,14 +44,14 @@ While a Composition defines the structure, it does not actually contain the cont
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/[something]"/>
+      <value value="TBD"/>
     </telecom>
   </contact>
   <description value="This profile defines how to represent a Vaccine Passport in FHIR by using a Bundle resource"/>
   <jurisdiction>
     <coding>
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+      <system value="TBD"/>
+      <code value="TBD"/>
     </coding>
   </jurisdiction>
   <purpose value="The Vaccine Passport is designed to facilitate safe free movement inside the EU during the COVID-19 pandemic. The Vaccine Passport will be a proof that a person has been vaccinated against COVID-19, received a negative test result or recovered from COVID-19"/>

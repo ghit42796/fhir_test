@@ -7,27 +7,6 @@
     "name": "Vaccine-Passport-ImmunizationRecommendation"
   },
   {
-    "id": "covid-19-vaccine-code",
-    "type": "ValueSet",
-    "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
-    "version": "0.0.1",
-    "name": "VaccineCode for COVID-19"
-  },
-  {
-    "id": "example.fhir.uv.myig",
-    "type": "ImplementationGuide",
-    "url": "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
-    "version": "0.0.1",
-    "name": "YourComputableMyIGNameHere"
-  },
-  {
-    "id": "zmypatient",
-    "type": "StructureDefinition",
-    "url": "http://somewhere.org/fhir/uv/myig/StructureDefinition/zmypatient",
-    "version": "0.0.1",
-    "name": "MyPatientName"
-  },
-  {
     "id": "Vaccine-Passport-Binary-QR-code",
     "type": "StructureDefinition",
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code",
@@ -75,5 +54,26 @@
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner",
     "version": "0.0.1",
     "name": "Vaccine-Passport-Practitioner"
+  },
+  {
+    "id": "covid-19-vaccine-code",
+    "type": "ValueSet",
+    "url": "https://ghit42796.github.io/fhir_test/ValueSet-covid-19-vaccine-code",
+    "version": "0.0.1",
+    "name": "VaccineCode for COVID-19"
+  },
+  {
+    "id": "example.fhir.TBD",
+    "type": "ImplementationGuide",
+    "url": "https://ghit42796.github.io/fhir_test/index.html",
+    "version": "0.0.1",
+    "name": "TBD"
+  },
+  {
+    "id": "zmypatient",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/zmypatient",
+    "version": "0.0.1",
+    "name": "MyPatientName"
   }
 ]

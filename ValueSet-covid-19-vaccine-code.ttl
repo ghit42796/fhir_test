@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/ValueSet/covid-19-vaccine-code> a fhir:ValueSet;
+<https://ghit42796.github.io/fhir_test/index.html/ValueSet/covid-19-vaccine-code> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "covid-19-vaccine-code"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840539006\">840539006</a></td><td>COVID-19</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>COVID19AZ</td><td>COVID-19 Vaccine AstraZeneca</td></tr><tr><td>COVID19PBNT</td><td>Pfizer-BioNTech COVID-19 Vaccine</td></tr><tr><td>COVID19Mod</td><td>Moderna COVID-19 Vaccine</td></tr></table></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases"];
+  fhir:ValueSet.url [ fhir:value "https://ghit42796.github.io/fhir_test/ValueSet-covid-19-vaccine-code"];
   fhir:ValueSet.version [ fhir:value "0.0.1"];
   fhir:ValueSet.name [ fhir:value "VaccineCode for COVID-19"];
   fhir:ValueSet.title [ fhir:value "VaccineCode for COVID-19 ValueSet"];
@@ -24,7 +24,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "TBD" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "VaccineCode for COVID-19"];
@@ -32,13 +32,14 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.system [ fhir:value "TBD" ];
+       fhir:Coding.code [ fhir:value "TBD" ]
      ]
   ];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "TBD" ];
        fhir:ValueSet.compose.include.concept [
          fhir:index 0;
          fhir:ValueSet.compose.include.concept.code [ fhir:value "COVID19AZ" ];
@@ -57,7 +58,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/ValueSet/covid-19-vaccine-code.ttl> a owl:Ontology;
+<https://ghit42796.github.io/fhir_test/index.html/ValueSet/covid-19-vaccine-code.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

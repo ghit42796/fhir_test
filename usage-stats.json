@@ -1,20 +1,14 @@
 {
-  "package": "example.fhir.uv.myig",
+  "package": "example.fhir.TBD",
   "version": "0.0.1",
   "fhirVersion": "4.0.1",
-  "jurisdiction": "001",
+  "jurisdiction": "TBD",
   "extensions": [],
   "profiles": {
     "ImmunizationRecommendation": [
       {
         "url": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc",
         "title": "Vaccine-Passport-ImmunizationRecommendation Profile"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient",
-        "title": "Vaccine-Passport-Patient Profile"
       }
     ],
     "Binary": [
@@ -45,6 +39,12 @@
       {
         "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization",
         "title": "Vaccine-Passport-Organization Profile"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/zmypatient",
+        "title": "My Favorite Patient Profile"
       }
     ],
     "Practitioner": [

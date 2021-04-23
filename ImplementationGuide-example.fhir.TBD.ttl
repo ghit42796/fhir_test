@@ -5,39 +5,39 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig> a fhir:ImplementationGuide;
+<https://ghit42796.github.io/fhir_test/index.html/ImplementationGuide/example.fhir.TBD> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "example.fhir.uv.myig"];
+  fhir:Resource.id [ fhir:value "example.fhir.TBD"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>YourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>A brief description of what MyIG is about (probably the same text as in your readme)</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>TBD</h2><p>The official URL for this implementation guide is: </p><pre>https://ghit42796.github.io/fhir_test/index.html</pre><div><p>TBD</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"];
+  fhir:ImplementationGuide.url [ fhir:value "https://ghit42796.github.io/fhir_test/index.html"];
   fhir:ImplementationGuide.version [ fhir:value "0.0.1"];
-  fhir:ImplementationGuide.name [ fhir:value "YourComputableMyIGNameHere"];
-  fhir:ImplementationGuide.title [ fhir:value "Your User Friendly Name for MyIG Here"];
+  fhir:ImplementationGuide.name [ fhir:value "TBD"];
+  fhir:ImplementationGuide.title [ fhir:value "TBD"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-23T14:45:57+08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-23T15:15:37+08:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "TBD"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "TBD" ]
      ]
   ];
-  fhir:ImplementationGuide.description [ fhir:value "A brief description of what MyIG is about (probably the same text as in your readme)"];
+  fhir:ImplementationGuide.description [ fhir:value "TBD"];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.system [ fhir:value "TBD" ];
+       fhir:Coding.code [ fhir:value "TBD" ]
      ]
   ];
-  fhir:ImplementationGuide.packageId [ fhir:value "example.fhir.uv.myig"];
+  fhir:ImplementationGuide.packageId [ fhir:value "example.fhir.TBD"];
   fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
   fhir:ImplementationGuide.fhirVersion [
      fhir:value "4.0.1";
@@ -194,7 +194,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://somewhere.org/fhir/uv/myig/history.html" ]
+         fhir:Extension.valueString [ fhir:value "history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -328,12 +328,14 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Bundle" ]
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/Bundle/h1>;
-         fhir:Reference.reference [ fhir:value "Bundle/h1" ]
-       ]
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Binary-QR-code>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Binary-QR-code" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Binary QR code Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent the Vaccine Passport QR code with a Binary resource" ]
      ], [
        fhir:index 1;
        fhir:Element.extension [
@@ -342,11 +344,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Binary-QR-code>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Binary-QR-code" ]
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Bundle>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Bundle" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Binary QR code Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent the Vaccine Passport QR code with a Binary resource" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Bundle Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent a Vaccine Passport in FHIR by using a Bundle resource" ]
      ], [
        fhir:index 2;
        fhir:Element.extension [
@@ -355,11 +357,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Bundle>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Bundle" ]
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-ImmunizationRecommendation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-ImmunizationRecommendation" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Bundle Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent a Vaccine Passport in FHIR by using a Bundle resource" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-ImmunizationRecommendation Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Immunization Recommandations Profile for Vaccine Passport" ]
      ], [
        fhir:index 3;
        fhir:Element.extension [
@@ -368,11 +370,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-ImmunizationRecommendation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-ImmunizationRecommendation" ]
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Immunization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Immunization" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-ImmunizationRecommendation Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Immunization Recommandations Profile for Vaccine Passport" ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Immunization Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines a profile representing a vaccination for a vaccine credential Health Card." ]
      ], [
        fhir:index 4;
        fhir:Element.extension [
@@ -381,11 +383,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Immunization>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Immunization" ]
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Observation>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Observation" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Immunization Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines a profile representing a vaccination for a vaccine credential Health Card." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Observation Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent Test Results in a Vacccine Passport." ]
      ], [
        fhir:index 5;
        fhir:Element.extension [
@@ -394,11 +396,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Observation>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Observation" ]
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Organization>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Organization" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Observation Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent Test Results in a Vacccine Passport." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Organization Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent Organization in a Vacccine Passport." ]
      ], [
        fhir:index 6;
        fhir:Element.extension [
@@ -407,11 +409,11 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Organization>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Organization" ]
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Patient>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Patient" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Organization Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent Organization in a Vacccine Passport." ]
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Patient Profile" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Profile for Vaccine Passport" ]
      ], [
        fhir:index 7;
        fhir:Element.extension [
@@ -420,46 +422,33 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Patient>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Patient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Patient Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Profile for Vaccine Passport" ]
-     ], [
-       fhir:index 8;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Practitioner>;
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Practitioner>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Passport-Practitioner" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Passport-Practitioner  Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Container for an SVC Practitioner, which is a Practitioner authorized by the PHA to vaccinate an [SVC Patient](StructureDefinition-svc-patient.html)." ]
      ], [
-       fhir:index 9;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/ValueSet/covid-19-vaccine-code>;
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/ValueSet/covid-19-vaccine-code>;
          fhir:Reference.reference [ fhir:value "ValueSet/covid-19-vaccine-code" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VaccineCode for COVID-19 ValueSet" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "VaccineCode for COVID-19" ]
      ], [
-       fhir:index 10;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://somewhere.org/fhir/uv/myig/StructureDefinition/zmypatient>;
+         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/zmypatient>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/zmypatient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "MyPatientName" ];
@@ -562,7 +551,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig.ttl> a owl:Ontology;
+<https://ghit42796.github.io/fhir_test/index.html/ImplementationGuide/example.fhir.TBD.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -1,36 +1,44 @@
-﻿YourComputableMyIGNameHere : Validation Results
+﻿TBD : Validation Results
 =========================================
 
-err = 70, warn = 70, info = 0
+err = 73, warn = 69, info = 11
 IG Publisher Version: 1.1.65 Out of date - current version is 1.1.67
-Generated Fri Apr 23 14:46:55 CST 2021. FHIR version 4.0.1 for example.fhir.uv.myig#0.0.1 (canonical = http://somewhere.org/fhir/uv/myig)
+Generated Fri Apr 23 15:16:35 CST 2021. FHIR version 4.0.1 for example.fhir.TBD#0.0.1 (canonical = https://ghit42796.github.io/fhir_test/index.html)
 
- Build Errors : 36 / 2 / 0
- C:\Workspace\Python\FHIR_IG\input\history\h1 : 4 / 1 / 2
- C:\Workspace\Python\FHIR_IG\input\history\h1 : 4 / 1 / 2
- C:\Workspace\Python\FHIR_IG\input\myig : 0 / 0 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile : 2 / 1 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile : 2 / 22 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\ImmunizationRecommendation_Profile : 2 / 2 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\Immunization_Profile : 26 / 24 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\Observation_Profile : 4 / 8 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\Organization_Profile : 5 / 2 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\Patient_Profile : 6 / 2 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\Practitioner_Profile : 2 / 2 / 1
- C:\Workspace\Python\FHIR_IG\input\resources\ValueSet_VaccineCode : 4 / 2 / 1
- Vaccine Passport : 1 / 1 / 1
+ Build Errors : 119 / 2 / 0
+ C:\Workspace\Python\FHIR_IG\input\myig : 4 / 0 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile : 3 / 1 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile : 3 / 22 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\ImmunizationRecommendation_Profile : 3 / 2 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\Immunization_Profile : 27 / 24 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\Observation_Profile : 5 / 8 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\Organization_Profile : 6 / 2 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\Patient_Profile : 7 / 2 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\Practitioner_Profile : 3 / 2 / 2
+ C:\Workspace\Python\FHIR_IG\input\resources\ValueSet_VaccineCode : 3 / 3 / 2
+ Vaccine Passport : 2 / 1 / 2
 </table>
 == n/a ==
+WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: ImplementationGuide.dependency[0].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 ERROR: C:\Workspace\Python\FHIR_IG\input\cql\notincluded.cql: CQL source was not associated with a library resource in the IG.
 ERROR: C:\Workspace\Python\FHIR_IG\input\cql\example.cql: CQL source was not associated with a library resource in the IG.
-ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Bundle/h1.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/h1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: ?pkp-1?: The reference http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-dgc could not be resolved
 ERROR: ?pkp-1?: The reference http://hl7.eu/fhir/ig/dgc/StructureDefinition/Patient-dgc could not be resolved
 ERROR: ?pkp-1?: The reference http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc could not be resolved
 ERROR: ?pkp-1?: The reference http://hl7.eu/fhir/ig/dgc/StructureDefinition/Observation-dgc could not be resolved
 ERROR: ?pkp-1?: The reference http://hl7.eu/fhir/ig/dgc/StructureDefinition/Binary-qr-dgc could not be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code-definitions.html#/html/body/div/div/div/p/a at Line 336, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code-mappings.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code.html#/html/body/div/div/div/p/a at Line 531, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code.profile.json.html#/html/body/div/div/div/p/a at Line 641, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code.profile.ttl.html#/html/body/div/div/div/p/a at Line 602, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Binary-QR-code.profile.xml.html#/html/body/div/div/div/p/a at Line 596, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle-definitions.html#/html/body/div/div/div/p/a at Line 2482, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle-mappings.html#/html/body/div/div/div/p/a at Line 417, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 309, column 1592: The link 'unknown.html' for "?pkp-2?" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 311, column 1588: The link 'unknown.html' for "?pkp-2?" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 313, column 1593: The link 'unknown.html' for "?pkp-2?" cannot be resolved
@@ -56,34 +64,98 @@ ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-B
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1187, column 1787: The link 'unknown.html' for "?pkp-2?" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1271, column 1785: The link 'unknown.html' for "?pkp-2?" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1313, column 1774: The link 'unknown.html' for "?pkp-2?" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.html#/html/body/div/div/div/p/a at Line 2005, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.profile.json.html#/html/body/div/div/div/p/a at Line 9951, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.profile.ttl.html#/html/body/div/div/div/p/a at Line 8820, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Bundle.profile.xml.html#/html/body/div/div/div/p/a at Line 8978, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 612, column 273: The link 'conformance.html' for "conformance requirements" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization-definitions.html#/html/body/div/div/div/p/a at Line 905, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization-mappings.html#/html/body/div/div/div/p/a at Line 396, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.html#/html/body/div/div/div/p/a at Line 1070, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.profile.json.html#/html/body/div/div/div/p/a at Line 3768, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3316, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 3424, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation-definitions.html#/html/body/div/div/div/p/a at Line 620, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation-mappings.html#/html/body/div/div/div/p/a at Line 337, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.html#/html/body/div/div/div/p/a at Line 810, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.json.html#/html/body/div/div/div/p/a at Line 2266, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2004, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.xml.html#/html/body/div/div/div/p/a at Line 2066, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation-definitions.html#/html/body/div/div/div/p/a at Line 802, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation-mappings.html#/html/body/div/div/div/p/a at Line 416, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation.html#/html/body/div/div/div/p/a at Line 873, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation.profile.json.html#/html/body/div/div/div/p/a at Line 2985, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2661, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation.profile.xml.html#/html/body/div/div/div/p/a at Line 2742, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization-definitions.html#/html/body/div/div/div/p/a at Line 657, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization-mappings.html#/html/body/div/div/div/p/a at Line 344, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization.html#/html/body/div/div/div/p/a at Line 726, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization.profile.json.html#/html/body/div/div/div/p/a at Line 2298, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization.profile.ttl.html#/html/body/div/div/div/p/a at Line 2013, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Organization.profile.xml.html#/html/body/div/div/div/p/a at Line 2053, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient-definitions.html#/html/body/div/div/div/p/a at Line 1055, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient-mappings.html#/html/body/div/div/div/p/a at Line 422, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient.html#/html/body/div/div/div/p/a at Line 993, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient.profile.json.html#/html/body/div/div/div/p/a at Line 4931, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient.profile.ttl.html#/html/body/div/div/div/p/a at Line 4231, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Patient.profile.xml.html#/html/body/div/div/div/p/a at Line 4408, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner-definitions.html#/html/body/div/div/div/p/a at Line 848, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner-mappings.html#/html/body/div/div/div/p/a at Line 386, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner.html#/html/body/div/div/div/div/div/table/tbody/tr/td/p/a at Line 206, column 131: The link 'StructureDefinition-svc-patient.html' for "SVC Patient" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR_IG\output\artifacts.html#/html/body/div/div/div/div/div/div/p/table/tbody/tr/td/p/a at Line 240, column 102: The link 'StructureDefinition-svc-patient.html' for "SVC Patient" cannot be resolved
-== C:\Workspace\Python\FHIR_IG\input\history\h1.json ==
-ERROR: Bundle.entry[0].resource.agent[0].type.coding: This property must be an Array, not an Object
-ERROR: Bundle.entry[0].resource.agent[1].type.coding: This property must be an Array, not an Object
-INFORMATION: Bundle/h1: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
-INFORMATION: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Provenance
-ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Provenance.recorded: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Provenance)
-ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).target[0]: Unable to resolve resource 'StructureDefinition/myObservation'
-WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set http://terminology.hl7.org/ValueSet/v3-PurposeOfUse (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse)
-== C:\Workspace\Python\FHIR_IG\input\history\h1.json ==
-ERROR: Bundle.entry[0].resource.agent[0].type.coding: This property must be an Array, not an Object
-ERROR: Bundle.entry[0].resource.agent[1].type.coding: This property must be an Array, not an Object
-INFORMATION: Bundle/h1: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
-INFORMATION: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Provenance
-ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance): Provenance.recorded: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/Provenance)
-ERROR: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).target[0]: Unable to resolve resource 'StructureDefinition/myObservation'
-WARNING: Bundle/h1: Bundle.entry[0].resource.ofType(Provenance).reason[0]: No code provided, and a code should be provided from the value set http://terminology.hl7.org/ValueSet/v3-PurposeOfUse (http://terminology.hl7.org/ValueSet/v3-PurposeOfUse)
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner.html#/html/body/div/div/div/p/a at Line 865, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner.profile.json.html#/html/body/div/div/div/p/a at Line 3386, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner.profile.ttl.html#/html/body/div/div/div/p/a at Line 2914, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Practitioner.profile.xml.html#/html/body/div/div/div/p/a at Line 3010, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient-definitions.html#/html/body/div/div/div/p/a at Line 743, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient-mappings.html#/html/body/div/div/div/p/a at Line 370, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient.html#/html/body/div/div/div/p/a at Line 775, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient.profile.json.html#/html/body/div/div/div/p/a at Line 2509, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 2215, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-zmypatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2300, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\ValueSet-covid-19-vaccine-code.change.history.html#/html/body/div/div/div/p/a at Line 226, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\ValueSet-covid-19-vaccine-code.html#/html/body/div/div/div/p/a at Line 273, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\ValueSet-covid-19-vaccine-code.json.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\ValueSet-covid-19-vaccine-code.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\ValueSet-covid-19-vaccine-code.xml.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\artifacts.html#/html/body/div/div/div/div/div/div/p/table/tbody/tr/td/p/a at Line 237, column 102: The link 'StructureDefinition-svc-patient.html' for "SVC Patient" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\artifacts.html#/html/body/div/div/div/p/a at Line 295, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\background.html#/html/body/div/div/div/p/a at Line 171, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\changes.html#/html/body/div/div/div/p/a at Line 173, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\downloads.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\index.html#/html/body/div/div/div/p/a at Line 191, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\spec.html#/html/body/div/div/div/p/a at Line 182, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\toc.html#/html/body/div/div/div/p/a at Line 162, column 28: The link 'TBD' for "TBD" cannot be resolved
 == C:\Workspace\Python\FHIR_IG\input\myig.xml ==
-INFORMATION: ImplementationGuide/example.fhir.uv.myig: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+ERROR: ImplementationGuide.where(url = 'https://ghit42796.github.io/fhir_test/index.html'): Conformance resource C:\Workspace\Python\FHIR_IG\input\myig.xml - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/ImplementationGuide/example.fhir.TBD) does not match the URL (https://ghit42796.github.io/fhir_test/index.html)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: example.fhir.TBD/https://ghit42796.github.io/fhir_test/index.html
+INFORMATION: ImplementationGuide/example.fhir.TBD: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+ERROR: ImplementationGuide/example.fhir.TBD: ImplementationGuide.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: ImplementationGuide/example.fhir.TBD: ImplementationGuide.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
+ERROR: C:\Workspace\Python\FHIR_IG\input\myig: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/ImplementationGuide/example.fhir.TBD vs https://ghit42796.github.io/fhir_test/index.html
 == C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile.json ==
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Binary-QR-code) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Binary-QR-code) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code)
 INFORMATION: StructureDefinition/Vaccine-Passport-Binary-QR-code: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+ERROR: StructureDefinition/Vaccine-Passport-Binary-QR-code: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-Binary-QR-code: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Binary-QR-code vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Binary_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Binary-QR-code vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code
 == C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile.json ==
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Bundle) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Bundle) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle)
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle#Bundle.entry:composition.resource: The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-dgc cannot be checked as the profile is not known
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle#Bundle.entry:patient.resource: The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Patient-dgc cannot be checked as the profile is not known
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle#Bundle.entry:immunization.resource: The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc cannot be checked as the profile is not known
@@ -91,6 +163,8 @@ WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passp
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle#Bundle.entry:binary.resource: The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Binary-qr-dgc cannot be checked as the profile is not known
 INFORMATION: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 WARNING: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.differential.element.where(path = 'Bundle.entry:composition.resource'): The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-dgc cannot be checked as the profile is not known
 WARNING: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.differential.element.where(path = 'Bundle.entry:patient.resource'): The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Patient-dgc cannot be checked as the profile is not known
 WARNING: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.differential.element.where(path = 'Bundle.entry:immunization.resource'): The type of profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc cannot be checked as the profile is not known
@@ -107,19 +181,23 @@ WARNING: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.snapsh
 WARNING: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.snapshot.element[189].type[0].profile[0]: Unable to resolve profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Observation-dgc
 WARNING: StructureDefinition/Vaccine-Passport-Bundle: StructureDefinition.snapshot.element[221].type[0].profile[0]: Unable to resolve profile http://hl7.eu/fhir/ig/dgc/StructureDefinition/Binary-qr-dgc
 WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Bundle vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Bundle_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Bundle vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle
 == C:\Workspace\Python\FHIR_IG\input\resources\ImmunizationRecommendation_Profile.json ==
-ERROR: StructureDefinition.where(url = 'http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\ImmunizationRecommendation_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-ImmunizationRecommendation) does not match the URL (http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc)
+ERROR: StructureDefinition.where(url = 'http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\ImmunizationRecommendation_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-ImmunizationRecommendation) does not match the URL (http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc)
 INFORMATION: StructureDefinition/Vaccine-Passport-ImmunizationRecommendation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Vaccine-Passport-ImmunizationRecommendation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: StructureDefinition/Vaccine-Passport-ImmunizationRecommendation: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-ImmunizationRecommendation: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\ImmunizationRecommendation_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-ImmunizationRecommendation vs http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\ImmunizationRecommendation_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-ImmunizationRecommendation vs http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-dgc
 == C:\Workspace\Python\FHIR_IG\input\resources\Immunization_Profile.json ==
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Immunization_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Immunization) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Immunization_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Immunization) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization)
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization#Immunization.patient: Cannot check whether the target profile https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-immunization is valid constraint on the base because it is not known
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization#Immunization.reaction.detail: Cannot check whether the target profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation is valid constraint on the base because it is not known
 INFORMATION: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 ERROR: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.snapshot.element[1].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization' does not resolve
 ERROR: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.snapshot.element[9].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/identity-assurance-level-value-set' does not resolve
 ERROR: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.snapshot.element[19].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set' does not resolve
@@ -165,12 +243,14 @@ WARNING: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.
 WARNING: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.snapshot.element[54].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-funding-source-value-set on element Immunization.fundingSource could not be resolved
 WARNING: StructureDefinition/Vaccine-Passport-Immunization: StructureDefinition.snapshot.element[60].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation
 WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Immunization_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Immunization vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Immunization_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Immunization vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization
 == C:\Workspace\Python\FHIR_IG\input\resources\Observation_Profile.json ==
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Observation_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Observation) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Observation_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Observation) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation)
 WARNING: https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation#Observation.subject: Cannot check whether the target profile http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips is valid constraint on the base because it is not known
 INFORMATION: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 ERROR: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.snapshot.element[15].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips' does not resolve
 ERROR: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.differential.element[2].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips' does not resolve
 WARNING: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.differential.element.where(path = 'Observation.subject'): Cannot check whether the target profile http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips is valid constraint on the base because it is not known
@@ -179,41 +259,50 @@ WARNING: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.d
 WARNING: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://hl7.eu/fhir/ig/dgc/ValueSet/loinc-tests-covid-19 on element Observation.code could not be resolved
 WARNING: StructureDefinition/Vaccine-Passport-Observation: StructureDefinition.snapshot.element[15].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips
 WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Observation_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Observation vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Observation_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Observation vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation
 == C:\Workspace\Python\FHIR_IG\input\resources\Organization_Profile.json ==
 ERROR: StructureDefinition.snapshot.element[15]: Unrecognised property '@mustSuport'
 ERROR: StructureDefinition.differential.element[3]: Unrecognised property '@mustSuport'
 ERROR: StructureDefinition.differential.element[4]: Unrecognised property '@mustSuport'
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Organization_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Organization) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Organization_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Organization) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization)
 INFORMATION: StructureDefinition/Vaccine-Passport-Organization: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Vaccine-Passport-Organization: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: StructureDefinition/Vaccine-Passport-Organization: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-Organization: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Organization_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Organization vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Organization_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Organization vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization
 == C:\Workspace\Python\FHIR_IG\input\resources\Patient_Profile.json ==
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Patient_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Patient) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Patient_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Patient) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient)
 INFORMATION: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 ERROR: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition.snapshot.element[1].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
 ERROR: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition.snapshot.element[19].constraint[1].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
 ERROR: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition.differential.element[1].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
 ERROR: StructureDefinition/Vaccine-Passport-Patient: StructureDefinition.differential.element[6].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-patient' does not resolve
 WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Patient_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Patient vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Patient_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Patient vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient
 == C:\Workspace\Python\FHIR_IG\input\resources\Practitioner_Profile.json ==
-ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Practitioner_Profile.json - the canonical URL (http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Practitioner) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner)
+ERROR: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\Practitioner_Profile.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Practitioner) does not match the URL (https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner)
 INFORMATION: StructureDefinition/Vaccine-Passport-Practitioner: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
 WARNING: StructureDefinition/Vaccine-Passport-Practitioner: StructureDefinition: sdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
+ERROR: StructureDefinition/Vaccine-Passport-Practitioner: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/Vaccine-Passport-Practitioner: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner'): The Implementation Guide contains no examples for this profile
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Practitioner_Profile: URL Mismatch http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Practitioner vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\Practitioner_Profile: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Practitioner vs https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner
 == C:\Workspace\Python\FHIR_IG\input\resources\ValueSet_VaccineCode.json ==
-ERROR: ValueSet.where(url = 'http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\ValueSet_VaccineCode.json - the canonical URL (http://somewhere.org/fhir/uv/myig/ValueSet/covid-19-vaccine-code) does not match the URL (http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases)
+ERROR: ValueSet.where(url = 'https://ghit42796.github.io/fhir_test/ValueSet-covid-19-vaccine-code'): Conformance resource C:\Workspace\Python\FHIR_IG\input\resources\ValueSet_VaccineCode.json - the canonical URL (https://ghit42796.github.io/fhir_test/index.html/ValueSet/covid-19-vaccine-code) does not match the URL (https://ghit42796.github.io/fhir_test/ValueSet-covid-19-vaccine-code)
 INFORMATION: ValueSet/covid-19-vaccine-code: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 WARNING: ValueSet/covid-19-vaccine-code: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' failed
-ERROR: ValueSet/covid-19-vaccine-code: ValueSet.compose.include[0]: vsd-1: 'A value set include/exclude SHALL have a value set or a system' failed
-ERROR: ValueSet/covid-19-vaccine-code: ValueSet.compose.include[0]: vsd-2: 'A value set with concepts or filters SHALL include a system' failed
-WARNING: ValueSet/covid-19-vaccine-code: ValueSet.compose[0].include[0]: No System specified, so Concepts and Filters can''t be checked
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\ValueSet_VaccineCode: URL Mismatch http://somewhere.org/fhir/uv/myig/ValueSet/covid-19-vaccine-code vs http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases
+ERROR: ValueSet/covid-19-vaccine-code: ValueSet.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: ValueSet/covid-19-vaccine-code: ValueSet.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
+WARNING: ValueSet/covid-19-vaccine-code: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'covid-19-vaccine-code'): Error from server: Unable to provide support for code system TBD
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\ValueSet_VaccineCode: URL Mismatch https://ghit42796.github.io/fhir_test/index.html/ValueSet/covid-19-vaccine-code vs https://ghit42796.github.io/fhir_test/ValueSet-covid-19-vaccine-code
 == C:\Workspace\Python\FHIR_IG\input\resources\resources-spreadsheet.xml ==
-ERROR: C:\Workspace\Python\FHIR_IG\input\resources\resources-spreadsheet: extension.uri must be defined for IG spreadsheets, and must start with http://somewhere.org/fhir/uv/myig
+ERROR: C:\Workspace\Python\FHIR_IG\input\resources\resources-spreadsheet: extension.uri must be defined for IG spreadsheets, and must start with https://ghit42796.github.io/fhir_test/index.html
 INFORMATION: StructureDefinition/zmypatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://somewhere.org/fhir/uv/myig/StructureDefinition/zmypatient'): The Implementation Guide contains no examples for this profile
+ERROR: StructureDefinition/zmypatient: StructureDefinition.jurisdiction[0].coding[0]: Coding.system must be an absolute reference, not a local reference
+INFORMATION: StructureDefinition/zmypatient: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
+WARNING: StructureDefinition.where(url = 'https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/zmypatient'): The Implementation Guide contains no examples for this profile

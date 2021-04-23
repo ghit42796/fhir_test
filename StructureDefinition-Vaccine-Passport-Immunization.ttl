@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Immunization> a fhir:StructureDefinition;
+<https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Immunization> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Vaccine-Passport-Immunization"];
   fhir:DomainResource.text [
@@ -33,7 +33,7 @@
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/[something]" ]
+       fhir:ContactPoint.value [ fhir:value "TBD" ]
      ]
   ];
   fhir:StructureDefinition.description [ fhir:value "Defines a profile representing a vaccination for a vaccine credential Health Card."];
@@ -41,8 +41,8 @@
      fhir:index 0;
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       fhir:Coding.code [ fhir:value "001" ]
+       fhir:Coding.system [ fhir:value "TBD" ];
+       fhir:Coding.code [ fhir:value "TBD" ]
      ]
   ];
   fhir:StructureDefinition.fhirVersion [ fhir:value "4.0.1"];
@@ -3710,7 +3710,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://somewhere.org/fhir/uv/myig/StructureDefinition/Vaccine-Passport-Immunization.ttl> a owl:Ontology;
+<https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Passport-Immunization.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

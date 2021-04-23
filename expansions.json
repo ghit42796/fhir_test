@@ -1,47 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "2e6e41be-9dd9-4323-a5b2-2f956c0229e9",
+  "id" : "ff489d14-635a-4083-8b4b-73715418b489",
   "meta" : {
-    "lastUpdated" : "2021-04-23T14:45:57.541+08:00"
+    "lastUpdated" : "2021-04-23T15:15:37.964+08:00"
   },
-  "type" : "collection",
-  "entry" : [{
-    "fullUrl" : "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "covid-19-vaccine-code",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
-      },
-      "url" : "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases",
-      "version" : "0.0.1",
-      "name" : "VaccineCode for COVID-19",
-      "title" : "VaccineCode for COVID-19 ValueSet",
-      "status" : "draft",
-      "date" : "2021-04-16",
-      "publisher" : "TBD",
-      "contact" : [{
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://hl7.org/Special/committees/[something]"
-        }]
-      }],
-      "description" : "VaccineCode for COVID-19",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:68a6ed51-d18d-4fb8-abb5-733f89036162",
-        "timestamp" : "2021-04-23T14:46:32+08:00",
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        }]
-      }
-    }
-  }]
+  "type" : "collection"
 }

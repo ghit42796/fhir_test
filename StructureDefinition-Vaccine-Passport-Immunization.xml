@@ -53,14 +53,14 @@ Verifiers SHALL assume that if an Immunization resource is provided and `isSubpo
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/[something]"/>
+      <value value="TBD"/>
     </telecom>
   </contact>
   <description value="Defines a profile representing a vaccination for a vaccine credential Health Card."/>
   <jurisdiction>
     <coding>
-      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-      <code value="001"/>
+      <system value="TBD"/>
+      <code value="TBD"/>
     </coding>
   </jurisdiction>
   <fhirVersion value="4.0.1"/>
