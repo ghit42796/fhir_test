@@ -1923,7 +1923,7 @@
        fhir:ElementDefinition.path [ fhir:value "ImmunizationRecommendation.recommendation.supportingImmunization" ];
        fhir:ElementDefinition.short [ fhir:value "Past immunizations supporting recommendation" ];
        fhir:ElementDefinition.definition [ fhir:value "Immunization event history and/or evaluation that supports the status and recommendation." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "ImmunizationRecommendation.recommendation.supportingImmunization" ];
@@ -1934,13 +1934,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Immunization";
+           fhir:value "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Immunization>
-         ], [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation";
-           fhir:index 1;
-           fhir:link <http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation>
+           fhir:link <https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -1955,6 +1951,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2102,6 +2099,21 @@
            fhir:Coding.code [ fhir:value "30980-7" ]
          ]
        ]
+     ], [
+       fhir:index 10;
+       fhir:Element.id [ fhir:value "ImmunizationRecommendation.recommendation.supportingImmunization" ];
+       fhir:ElementDefinition.path [ fhir:value "ImmunizationRecommendation.recommendation.supportingImmunization" ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
+         fhir:ElementDefinition.type.targetProfile [
+           fhir:value "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization";
+           fhir:index 0;
+           fhir:link <https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization>
+         ]
+       ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ]
      ]
   ] .
 

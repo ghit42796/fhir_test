@@ -2,8 +2,8 @@
 =========================================
 
 err = 74, warn = 73, info = 11
-IG Publisher Version: 1.1.65 Out of date - current version is 1.1.67
-Generated Fri Apr 23 15:24:34 CST 2021. FHIR version 4.0.1 for example.fhir.TBD#0.0.1 (canonical = https://ghit42796.github.io/fhir_test/index.html)
+IG Publisher Version: 1.1.65 Out of date - current version is 1.1.68
+Generated Mon Apr 26 11:39:48 CST 2021. FHIR version 4.0.1 for example.fhir.TBD#0.0.1 (canonical = https://ghit42796.github.io/fhir_test/index.html)
 
  Build Errors : 125 / 2 / 0
  C:\Workspace\Python\FHIR_IG\input\myig : 4 / 0 / 2
@@ -84,14 +84,14 @@ ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-I
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.profile.json.html#/html/body/div/div/div/p/a at Line 3768, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3316, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 3424, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation-definitions.html#/html/body/div/div/div/p/a at Line 620, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation-definitions.html#/html/body/div/div/div/p/a at Line 621, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation-mappings.html#/html/body/div/div/div/p/a at Line 337, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.html#/html/body/div/div/div/p/a at Line 810, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.html#/html/body/div/div/div/p/a at Line 815, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.history.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.json.html#/html/body/div/div/div/p/a at Line 2266, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2004, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.xml.html#/html/body/div/div/div/p/a at Line 2066, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.json.html#/html/body/div/div/div/p/a at Line 2280, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.ttl.html#/html/body/div/div/div/p/a at Line 2014, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-ImmunizationRecommendation.profile.xml.html#/html/body/div/div/div/p/a at Line 2077, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation-definitions.html#/html/body/div/div/div/p/a at Line 802, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation-examples.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR_IG\output\StructureDefinition-Vaccine-Passport-Observation-mappings.html#/html/body/div/div/div/p/a at Line 416, column 28: The link 'TBD' for "TBD" cannot be resolved

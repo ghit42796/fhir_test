@@ -1501,7 +1501,7 @@
       <path value="ImmunizationRecommendation.recommendation.supportingImmunization"/>
       <short value="Past immunizations supporting recommendation"/>
       <definition value="Immunization event history and/or evaluation that supports the status and recommendation."/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="*"/>
       <base>
         <path value="ImmunizationRecommendation.recommendation.supportingImmunization"/>
@@ -1510,8 +1510,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Immunization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation"/>
+        <targetProfile value="https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1521,6 +1520,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1632,6 +1632,15 @@
           <code value="30980-7"/>
         </coding>
       </patternCodeableConcept>
+    </element>
+    <element id="ImmunizationRecommendation.recommendation.supportingImmunization">
+      <path value="ImmunizationRecommendation.recommendation.supportingImmunization"/>
+      <min value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization"/>
+      </type>
+      <mustSupport value="true"/>
     </element>
   </differential>
 </StructureDefinition>

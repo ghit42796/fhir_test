@@ -1824,7 +1824,7 @@
         "path": "ImmunizationRecommendation.recommendation.supportingImmunization",
         "short": "Past immunizations supporting recommendation",
         "definition": "Immunization event history and/or evaluation that supports the status and recommendation.",
-        "min": 0,
+        "min": 1,
         "max": "*",
         "base": {
           "path": "ImmunizationRecommendation.recommendation.supportingImmunization",
@@ -1835,8 +1835,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Immunization",
-              "http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation"
+              "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization"
             ]
           }
         ],
@@ -1850,6 +1849,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": true,
         "isModifier": false,
         "isSummary": false,
         "mapping": [
@@ -1996,6 +1996,20 @@
             }
           ]
         }
+      },
+      {
+        "id": "ImmunizationRecommendation.recommendation.supportingImmunization",
+        "path": "ImmunizationRecommendation.recommendation.supportingImmunization",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization"
+            ]
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

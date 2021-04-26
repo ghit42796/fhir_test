@@ -88,6 +88,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
+    <sch:title>f:ImmunizationRecommendation/f:recommendation</sch:title>
+    <sch:rule context="f:ImmunizationRecommendation/f:recommendation">
+      <sch:assert test="count(f:supportingImmunization) &gt;= 1">supportingImmunization: minimum cardinality of 'supportingImmunization' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>ImmunizationRecommendation.recommendation</sch:title>
     <sch:rule context="f:ImmunizationRecommendation/f:recommendation">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
