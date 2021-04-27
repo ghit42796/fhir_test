@@ -1,59 +1,59 @@
 [
   {
-    "id": "Vaccine-Passport-Binary-QR-code",
+    "id": "Vaccine-Certificate-Binary-QR-code",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Binary-QR-code",
     "version": "0.0.1",
-    "name": "VaccinePassportBinaryQRcode"
+    "name": "VaccineCertificateBinaryQRcode"
   },
   {
-    "id": "Vaccine-Passport-Bundle",
+    "id": "Vaccine-Certificate-Bundle",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",
     "version": "0.0.1",
-    "name": "Vaccine-Passport-Bundle"
+    "name": "Vaccine-Certificate-Bundle"
   },
   {
-    "id": "Vaccine-Passport-Immunization",
+    "id": "Vaccine-Certificate-Immunization",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Immunization",
     "version": "0.0.1",
-    "name": "Vaccine-Passport-Immunization"
+    "name": "Vaccine-Certificate-Immunization"
   },
   {
-    "id": "Vaccine-Passport-ImmunizationRecommendation",
+    "id": "Vaccine-Certificate-ImmunizationRecommendation",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-ImmunizationRecommendation",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-ImmunizationRecommendation",
     "version": "0.0.1",
-    "name": "Vaccine-Passport-ImmunizationRecommendation"
+    "name": "Vaccine-Certificate-ImmunizationRecommendation"
   },
   {
-    "id": "Vaccine-Passport-Observation",
+    "id": "Vaccine-Certificate-Observation",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Observation",
     "version": "0.0.1",
-    "name": "Vaccine-Passport-Observation"
+    "name": "Vaccine-Certificate-Observation"
   },
   {
-    "id": "Vaccine-Passport-Organization",
+    "id": "Vaccine-Certificate-Organization",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization",
     "version": "0.0.1",
-    "name": "Vaccine-Passport-Organization"
+    "name": "Vaccine-Certificate-Organization"
   },
   {
-    "id": "Vaccine-Passport-Patient",
+    "id": "Vaccine-Certificate-Patient",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Patient",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Patient",
     "version": "0.0.1",
-    "name": "Vaccine-Passport-Patient"
+    "name": "Vaccine-Certificate-Patient"
   },
   {
-    "id": "Vaccine-Passport-Practitioner",
+    "id": "Vaccine-Certificate-Practitioner",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Practitioner",
     "version": "0.0.1",
-    "name": "Vaccine-Passport-Practitioner"
+    "name": "Vaccine-Certificate-Practitioner"
   },
   {
     "id": "covid-19-vaccine-code",

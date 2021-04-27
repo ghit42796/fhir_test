@@ -11,7 +11,7 @@
   "title": "TBD",
   "status": "draft",
   "experimental": false,
-  "date": "2021-04-26T11:38:38+08:00",
+  "date": "2021-04-27T17:00:54+08:00",
   "publisher": "TBD",
   "contact": [
     {
@@ -350,10 +350,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-Binary-QR-code"
+          "reference": "StructureDefinition/Vaccine-Certificate-Binary-QR-code"
         },
-        "name": "Vaccine-Passport-Binary QR code Profile",
-        "description": "This profile defines how to represent the Vaccine Passport QR code with a Binary resource"
+        "name": "Vaccine-Certificate-Binary QR code Profile",
+        "description": "This profile defines how to represent the Vaccine Certificate QR code with a Binary resource"
       },
       {
         "extension": [
@@ -363,10 +363,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-Bundle"
+          "reference": "StructureDefinition/Vaccine-Certificate-Bundle"
         },
-        "name": "Vaccine-Passport-Bundle Profile",
-        "description": "This profile defines how to represent a Vaccine Passport in FHIR by using a Bundle resource"
+        "name": "Vaccine-Certificate-Bundle Profile",
+        "description": "This profile defines how to represent a Vaccine Certificate in FHIR by using a Bundle resource"
       },
       {
         "extension": [
@@ -376,10 +376,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-ImmunizationRecommendation"
+          "reference": "StructureDefinition/Vaccine-Certificate-ImmunizationRecommendation"
         },
-        "name": "Vaccine-Passport-ImmunizationRecommendation Profile",
-        "description": "Immunization Recommandations Profile for Vaccine Passport"
+        "name": "Vaccine-Certificate-ImmunizationRecommendation Profile",
+        "description": "Immunization Recommandations Profile for Vaccine Certificate"
       },
       {
         "extension": [
@@ -389,9 +389,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-Immunization"
+          "reference": "StructureDefinition/Vaccine-Certificate-Immunization"
         },
-        "name": "Vaccine-Passport-Immunization Profile",
+        "name": "Vaccine-Certificate-Immunization Profile",
         "description": "Defines a profile representing a vaccination for a vaccine credential Health Card."
       },
       {
@@ -402,10 +402,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-Observation"
+          "reference": "StructureDefinition/Vaccine-Certificate-Observation"
         },
-        "name": "Vaccine-Passport-Observation Profile",
-        "description": "This profile defines how to represent Test Results in a Vacccine Passport."
+        "name": "Vaccine-Certificate-Observation Profile",
+        "description": "This profile defines how to represent Test Results in a Vacccine Certificate."
       },
       {
         "extension": [
@@ -415,10 +415,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-Organization"
+          "reference": "StructureDefinition/Vaccine-Certificate-Organization"
         },
-        "name": "Vaccine-Passport-Organization Profile",
-        "description": "This profile defines how to represent Organization in a Vacccine Passport."
+        "name": "Vaccine-Certificate-Organization Profile",
+        "description": "This profile defines how to represent Organization in a Vacccine Certificate."
       },
       {
         "extension": [
@@ -428,10 +428,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-Patient"
+          "reference": "StructureDefinition/Vaccine-Certificate-Patient"
         },
-        "name": "Vaccine-Passport-Patient Profile",
-        "description": "Patient Profile for Vaccine Passport"
+        "name": "Vaccine-Certificate-Patient Profile",
+        "description": "Patient Profile for Vaccine Certificate"
       },
       {
         "extension": [
@@ -441,9 +441,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Passport-Practitioner"
+          "reference": "StructureDefinition/Vaccine-Certificate-Practitioner"
         },
-        "name": "Vaccine-Passport-Practitioner  Profile",
+        "name": "Vaccine-Certificate-Practitioner  Profile",
         "description": "Container for an SVC Practitioner, which is a Practitioner authorized by the PHA to vaccinate an [SVC Patient](StructureDefinition-svc-patient.html)."
       },
       {

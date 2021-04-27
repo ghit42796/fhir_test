@@ -12,7 +12,7 @@
   <title value="TBD"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-04-26T11:38:38+08:00"/>
+  <date value="2021-04-27T17:00:54+08:00"/>
   <publisher value="TBD"/>
   <contact>
     <telecom>
@@ -220,39 +220,39 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-Binary-QR-code"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Binary-QR-code"/>
       </reference>
-      <name value="Vaccine-Passport-Binary QR code Profile"/>
-      <description value="This profile defines how to represent the Vaccine Passport QR code with a Binary resource"/>
+      <name value="Vaccine-Certificate-Binary QR code Profile"/>
+      <description value="This profile defines how to represent the Vaccine Certificate QR code with a Binary resource"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-Bundle"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Bundle"/>
       </reference>
-      <name value="Vaccine-Passport-Bundle Profile"/>
-      <description value="This profile defines how to represent a Vaccine Passport in FHIR by using a Bundle resource"/>
+      <name value="Vaccine-Certificate-Bundle Profile"/>
+      <description value="This profile defines how to represent a Vaccine Certificate in FHIR by using a Bundle resource"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-ImmunizationRecommendation"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-ImmunizationRecommendation"/>
       </reference>
-      <name value="Vaccine-Passport-ImmunizationRecommendation Profile"/>
-      <description value="Immunization Recommandations Profile for Vaccine Passport"/>
+      <name value="Vaccine-Certificate-ImmunizationRecommendation Profile"/>
+      <description value="Immunization Recommandations Profile for Vaccine Certificate"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-Immunization"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Immunization"/>
       </reference>
-      <name value="Vaccine-Passport-Immunization Profile"/>
+      <name value="Vaccine-Certificate-Immunization Profile"/>
       <description value="Defines a profile representing a vaccination for a vaccine credential Health Card."/>
     </resource>
     <resource>
@@ -260,39 +260,39 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-Observation"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Observation"/>
       </reference>
-      <name value="Vaccine-Passport-Observation Profile"/>
-      <description value="This profile defines how to represent Test Results in a Vacccine Passport."/>
+      <name value="Vaccine-Certificate-Observation Profile"/>
+      <description value="This profile defines how to represent Test Results in a Vacccine Certificate."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-Organization"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Organization"/>
       </reference>
-      <name value="Vaccine-Passport-Organization Profile"/>
-      <description value="This profile defines how to represent Organization in a Vacccine Passport."/>
+      <name value="Vaccine-Certificate-Organization Profile"/>
+      <description value="This profile defines how to represent Organization in a Vacccine Certificate."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-Patient"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Patient"/>
       </reference>
-      <name value="Vaccine-Passport-Patient Profile"/>
-      <description value="Patient Profile for Vaccine Passport"/>
+      <name value="Vaccine-Certificate-Patient Profile"/>
+      <description value="Patient Profile for Vaccine Certificate"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Passport-Practitioner"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Practitioner"/>
       </reference>
-      <name value="Vaccine-Passport-Practitioner  Profile"/>
+      <name value="Vaccine-Certificate-Practitioner  Profile"/>
       <description value="Container for an SVC Practitioner, which is a Practitioner authorized by the PHA to vaccinate an [SVC Patient](StructureDefinition-svc-patient.html)."/>
     </resource>
     <resource>

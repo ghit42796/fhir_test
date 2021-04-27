@@ -7,38 +7,38 @@
   "profiles": {
     "Binary": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Binary-QR-code",
-        "title": "Vaccine-Passport-Binary QR code Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Binary-QR-code",
+        "title": "Vaccine-Certificate-Binary QR code Profile"
       }
     ],
     "Bundle": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Bundle",
-        "title": "Vaccine-Passport-Bundle Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",
+        "title": "Vaccine-Certificate-Bundle Profile"
       }
     ],
     "Immunization": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Immunization",
-        "title": "Vaccine-Passport-Immunization Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Immunization",
+        "title": "Vaccine-Certificate-Immunization Profile"
       }
     ],
     "ImmunizationRecommendation": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-ImmunizationRecommendation",
-        "title": "Vaccine-Passport-ImmunizationRecommendation Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-ImmunizationRecommendation",
+        "title": "Vaccine-Certificate-ImmunizationRecommendation Profile"
       }
     ],
     "Observation": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Observation",
-        "title": "Vaccine-Passport-Observation Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Observation",
+        "title": "Vaccine-Certificate-Observation Profile"
       }
     ],
     "Organization": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Organization",
-        "title": "Vaccine-Passport-Organization Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization",
+        "title": "Vaccine-Certificate-Organization Profile"
       }
     ],
     "Patient": [
@@ -49,8 +49,8 @@
     ],
     "Practitioner": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Passport-Practitioner",
-        "title": "Vaccine-Passport-Practitioner  Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Practitioner",
+        "title": "Vaccine-Certificate-Practitioner  Profile"
       }
     ]
   },
