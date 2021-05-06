@@ -152,23 +152,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <p>
     <strong>此為台灣數位疫苗接種證明的FHIR實施指南</strong>
   </p>
-  <ol>
-    <li>
-      <strong>背景說明</strong>
-    </li>
-  </ol>
+      <strong>一、背景說明</strong>
   <p>    COVID-19的疫情除了造成全球人民大量確診與死亡之外，也由於國家城市封鎖與隔離檢疫等措施，使得國際旅行停滯，對全球經濟產生重大的影響。為了盡速恢復國際旅行，目前國際上許多國家（如新加坡）、區域聯盟（如歐盟）與全球性組織（如WHO），都開始規劃疫苗接種證明。臺灣做為國際社會的一份子，在防疫措施獲得全球讚賞之餘，也要對後疫情時代如何盡早恢復民眾正常生活作息展開部署，因此，衛福部自三月開始規畫，依照國際通用標準與格式來建立我們自己的疫苗接種證明。</p>
-  <ol>
-    <li>
-      <strong>國內的需求</strong>
-    </li>
-  </ol>
+      <strong>二、國內的需求</strong>
+
   <p>疫苗接種證明分為紙本與數位兩種，數位較紙本有不易偽造、竄改及遺失等優勢；目前國際上發展數位疫苗接種證明，許多均採用HL7最新的FHIR標準，如WHO（<a href="https://who-int.github.io/svc/index.html">https://who-int.github.io/svc/index.html</a>）和歐盟（<a href="https://build.fhir.org/ig/hl7-eu/dgc/index.html">https://build.fhir.org/ig/hl7-eu/dgc/index.html</a>）等，為了方便與國際接軌，因此臺灣的數位疫苗接種證明也採用FHIR標準來進行開發。</p>
-  <ol>
-    <li>
-      <strong>使用情境</strong>
-    </li>
-  </ol>
+
+      <strong>三、使用情境</strong>
+
   <p>依據國際上對疫苗接種證明的規劃，使用證明的過程大約會牽涉三種角色：發證端、持證端、與查證端，雖然目前臺灣對疫苗接種證明完整的使用情境尚在規劃中，但使用的對象應該不脫離上述三者，茲將此三者的關係與所扮演的角色說明如下：</p>
   <p>
     <strong>
@@ -179,16 +170,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <p>接種者接受疫苗施打後，由發證端將證明送至接種者指定之email或行動裝置app，或應其要求列印出紙本，持證端（接種者或被授權者）即可以紙本或透過相關載具（包括email或行動裝置app）將證明呈現，呈現的內容必須能同時滿足接受視覺查核（資訊直接呈現）及接受資訊工具查核（資訊打包於QR-Code中）；而此呈現證明之行動裝置app，亦可由主管機關或民間單位開發。</p>
   <p>查證端要查核持證端呈現的證明時（可能包含資料的確認），可能位於國內，也可能位在國外；同時依照查證端的資訊與聯網能力，查核方式可能僅透過視覺查核，或透過掃描QR-Code後取得打包資訊查核，亦或再聯回發證端進行查核，從資安的角度，第三者的資安強度最高，但除牽涉如前所述之查證端的資訊與聯網能力外，若查證端位在國外，還會牽涉國際信任框架的運作。而位於國內的查證端，其所使用之查驗工具，亦可由主管機關或民間單位開發。</p>
   <p>從發證端發行證明到查證端查驗證明，為使過程中所有資訊的傳遞順利，應由衛福部負責制定單一的標準與格式；並且由於查證端可能位在國外，為了順利與國際接軌，此標準與格式將會採用HL7最新的FHIR標準，這也是WHO、歐盟及許多國家組織都採用的標準與格式。而衛福部除了參考國際之外，也會先制定一版後公開徵求大眾的意見與建議，使制定的標準與格式更加完備。</p>
-  <ol>
-    <li>
-      <strong>欄位說明</strong>
-      <ol>
-        <li>
-          <strong>數位疫苗接種證明欄位</strong>
-        </li>
-      </ol>
-    </li>
-  </ol>
+
+  <strong>四、欄位說明</strong>
+  <br>
+  <strong>  1. 數位疫苗接種證明欄位</strong>
+
   <p>目前整合了WHO、歐盟、以及臺灣疾病管制署疫苗接種紀錄卡上的欄位需求，同時也為了保護個人隱私，遵循國際上普遍採用的最小揭露原則，僅蒐集紀錄為達成疫苗接種證明使用目的的必須資訊，訂定了臺灣數位疫苗接種證明上所需要的欄位與編碼規則，茲說明如下：</p>
   <table>
     <thead>
@@ -581,8 +567,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="2e6bbb47-a9f1-4ba0-950a-dbe5a44c9ac5">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TBD#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 6, 2021 10:49+0800">2021-05-06</span>
+        <p><a name="3cb2dc57-1fbf-4413-af32-044737b28b04">​</a>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TBD#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 6, 2021 11:09+0800">2021-05-06</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
