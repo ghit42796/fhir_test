@@ -40,7 +40,7 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
-  <body>
+  <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
 
@@ -188,215 +188,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <th>
           <p>說明</p>
         </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="6">
-          <p>病人<br/>基本資料</p>
-        </td>
-        <td>
-          <p>姓名</p>
-        </td>
-        <td>
-          <p>接種者姓名</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>英文姓名</p>
-        </td>
-        <td>
-          <p>接種者英文姓名，Last Name在前，First Name在後，英文姓名需與護照相同</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>身分辨識ID</p>
-        </td>
-        <td>
-          <p>身分證字號/居留證號/護照號碼</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>性別</p>
-        </td>
-        <td>
-          <p>接種者生理性別</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>國籍</p>
-        </td>
-        <td>
-          <p>接種者國籍，國家代碼須符合ISO 3166</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>出生年月日</p>
-        </td>
-        <td>
-          <p>接種者出生年月日，日期格式依ISO 8601規範</p>
-        </td>
-      </tr>
-      <tr>
-        <td rowspan="10">
-          <p>疫苗及<br/>接種資訊</p>
-        </td>
-        <td>
-          <p>疫苗或預防措施</p>
-        </td>
-        <td>
-          <p>疫苗種類</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>疫苗的商品名稱</p>
-        </td>
-        <td>
-          <p>疫苗商品名稱</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>製造商</p>
-        </td>
-        <td>
-          <p>製造商名稱</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>劑別</p>
-        </td>
-        <td>
-          <p>疫苗接種過程中的第幾劑</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>批號</p>
-        </td>
-        <td>
-          <p>英文或數字的組合，以利識別每一批疫苗，若發生問題時可透過批號追蹤</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>接種日期</p>
-        </td>
-        <td>
-          <p>疫苗接種日期，日期格式依ISO 8601規範</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>機構名稱</p>
-        </td>
-        <td>
-          <p>負責接種疫苗的醫事機構名稱/代碼，以衛福部醫事管理系統之資料為準</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>醫療人員姓名</p>
-        </td>
-        <td>
-          <p>施打疫苗的醫事人員姓名或代碼，數位證明以醫事人員卡簽章驗證</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>接種國家</p>
-        </td>
-        <td>
-          <p>接種疫苗的國家，國家代碼須符合ISO 3166</p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <p>下次接踵日期</p>
-        </td>
-        <td>
-          <p>紀錄下次疫苗施打的日期，日期格式依ISO 8601規範</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <ul>
-    <strong>2. 病毒檢測紀錄</strong>
-  </ul>
-  <p>除了疫苗接種紀錄之外，衛福部也思考將病毒檢測紀錄納入證明中，目前依據疾管署「預防 COVID-19 入境檢疫措施-搭機前 3 日內核酸檢驗報告相關問答輯」中的資訊，規劃納入的病毒檢測相關欄位如下：</p>
-  <table>
-    <tr>
-      <td>
-        <p>類型</p>
-      </td>
-      <td>
-        <p>欄位別</p>
-      </td>
-      <td>
-        <p>說明</p>
-      </td>
-    </tr>
-    <tr>
-      <td rowspan="5">
-        <p>檢驗相關</p>
-      </td>
-      <td>
-        <p>疾病名稱</p>
-      </td>
-      <td>
-        <p>COVID-19或SARS-CoV-2</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>採檢日</p>
-      </td>
-      <td>
-        <p>採檢的日期，日期格式依ISO 8601規範</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>報告日</p>
-      </td>
-      <td>
-        <p>報告產出日期，日期格式依ISO 8601規範</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>檢驗方法</p>
-      </td>
-      <td>
-        <p>檢驗報告需採分子生物學核酸檢測，不可為血清免疫學（Immunoserology）檢驗抗原(Ag)或抗體（IgG或IgM)</p>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <p>判讀結果</p>
-      </td>
-      <td>
-        <p>檢查報告結果，包括Negative、Positive、Undetectable</p>
-      </td>
-    </tr>
-  </table>
-      <strong>五、欄位對應的FHIR資源</strong>
-  <table>
-    <thead>
-      <tr>
-        <th>
-          <p>類型</p>
-        </th>
-        <th>
-          <p>欄位別</p>
-        </th>
         <th>
           <p>Profile中欄位名稱</p>
         </th>
@@ -411,12 +202,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <p>姓名</p>
         </td>
         <td>
+          <p>接種者姓名</p>
+        </td>
+        <td>
           <p>Patient.name</p>
         </td>
       </tr>
       <tr>
         <td>
-          <p>英文姓名(同護照)</p>
+          <p>英文姓名</p>
+        </td>
+        <td>
+          <p>接種者英文姓名，Last Name在前，First Name在後，英文姓名需與護照相同</p>
         </td>
         <td>
           <p>Patient.name</p>
@@ -427,12 +224,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <p>身分辨識ID</p>
         </td>
         <td>
+          <p>身分證字號/居留證號/護照號碼</p>
+        </td>
+        <td>
           <p>Patient.identifier</p>
         </td>
       </tr>
       <tr>
         <td>
           <p>性別</p>
+        </td>
+        <td>
+          <p>接種者生理性別</p>
         </td>
         <td>
           <p>Patient.gender</p>
@@ -443,12 +246,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <p>國籍</p>
         </td>
         <td>
+          <p>接種者國籍，國家代碼須符合ISO 3166</p>
+        </td>
+        <td>
           <p>Patient.address</p>
         </td>
       </tr>
       <tr>
         <td>
           <p>出生年月日</p>
+        </td>
+        <td>
+          <p>接種者出生年月日，日期格式依ISO 8601規範</p>
         </td>
         <td>
           <p>Patient.birthDate</p>
@@ -462,6 +271,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <p>疫苗或預防措施</p>
         </td>
         <td>
+          <p>疫苗種類</p>
+        </td>
+        <td>
           <p>Vaccine.code</p>
         </td>
       </tr>
@@ -469,11 +281,17 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>
           <p>疫苗的商品名稱</p>
         </td>
+        <td>
+          <p>疫苗商品名稱</p>
+        </td>
         <td></td>
       </tr>
       <tr>
         <td>
           <p>製造商</p>
+        </td>
+        <td>
+          <p>製造商名稱</p>
         </td>
         <td>
           <p>Immunization.manufacturer</p>
@@ -484,12 +302,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <p>劑別</p>
         </td>
         <td>
+          <p>疫苗接種過程中的第幾劑</p>
+        </td>
+        <td>
           <p>protocol applied</p>
         </td>
       </tr>
       <tr>
         <td>
           <p>批號</p>
+        </td>
+        <td>
+          <p>英文或數字的組合，以利識別每一批疫苗，若發生問題時可透過批號追蹤</p>
         </td>
         <td>
           <p>Immunization.lotNumber</p>
@@ -500,12 +324,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <p>接種日期</p>
         </td>
         <td>
+          <p>疫苗接種日期，日期格式依ISO 8601規範</p>
+        </td>
+        <td>
           <p>Immunization.occurrence</p>
         </td>
       </tr>
       <tr>
         <td>
           <p>機構名稱</p>
+        </td>
+        <td>
+          <p>負責接種疫苗的醫事機構名稱/代碼，以衛福部醫事管理系統之資料為準</p>
         </td>
         <td>
           <p>Immunization.location</p>
@@ -516,12 +346,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           <p>醫療人員姓名</p>
         </td>
         <td>
+          <p>施打疫苗的醫事人員姓名或代碼，數位證明以醫事人員卡簽章驗證</p>
+        </td>
+        <td>
           <p>Immunization.performer</p>
         </td>
       </tr>
       <tr>
         <td>
           <p>接種國家</p>
+        </td>
+        <td>
+          <p>接種疫苗的國家，國家代碼須符合ISO 3166</p>
         </td>
         <td>
           <p>Immunization.location</p>
@@ -531,9 +367,78 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
         <td>
           <p>下次接踵日期</p>
         </td>
+        <td>
+          <p>紀錄下次疫苗施打的日期，日期格式依ISO 8601規範</p>
+        </td>
         <td></td>
       </tr>
     </tbody>
+  </table>
+    <strong>2. 病毒檢測紀錄</strong>
+  <p>除了疫苗接種紀錄之外，衛福部也思考將病毒檢測紀錄納入證明中，目前依據疾管署「預防 COVID-19 入境檢疫措施-搭機前 3 日內核酸檢驗報告相關問答輯」中的資訊，規劃納入的病毒檢測相關欄位如下：</p>
+  <table>
+    <tr>
+      <td>
+        <p>類型</p>
+      </td>
+      <td>
+        <p>欄位別</p>
+      </td>
+      <td>
+        <p>說明</p>
+      </td>
+      <td>
+        <p>Profile中欄位名稱</p>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan="5">
+        <p>檢驗相關</p>
+      </td>
+      <td>
+        <p>疾病名稱</p>
+      </td>
+      <td>
+        <p>COVID-19或SARS-CoV-2</p>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <p>採檢日</p>
+      </td>
+      <td>
+        <p>採檢的日期，日期格式依ISO 8601規範</p>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <p>報告日</p>
+      </td>
+      <td>
+        <p>報告產出日期，日期格式依ISO 8601規範</p>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <p>檢驗方法</p>
+      </td>
+      <td>
+        <p>檢驗報告需採分子生物學核酸檢測，不可為血清免疫學（Immunoserology）檢驗抗原(Ag)或抗體（IgG或IgM)</p>
+      </td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>
+        <p>判讀結果</p>
+      </td>
+      <td>
+        <p>檢查報告結果，包括Negative、Positive、Undetectable</p>
+      </td>
+      <td></td>
+    </tr>
   </table>
 </div>
 
@@ -557,8 +462,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="b9f97ac0-62b7-4270-be62-dbf930575079">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TBD#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 6, 2021 11:23+0800">2021-05-06</span>
+        <p><a name="f79902e1-1855-4863-9118-7dff5574ccb5">​</a>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TBD#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 13, 2021 13:22+0800">2021-05-13</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
