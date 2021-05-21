@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>EXAMPLE.FHIR.TBD\Vaccine-Certificate-Immunization Profile - Definitions - FHIR v4.0.1</title>
+    <title>EXAMPLE.FHIR.TSC\Vaccine-Certificate-Immunization Profile - Definitions - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -47,7 +47,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">TBD</span><br/>0.0.1 - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Taiwan Smart Certificate</span><br/>0.0.1 - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -113,21 +113,24 @@
       </div>    <!-- /container -->
     </div>    <!-- /segment-navbar -->
       <!-- status-bar -->
+
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
           <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>Vaccine-Certificate-Immunization Profile</b></li>
+
         </ul>
       </div>    <!-- /container -->
     </div>    <!-- /segment-breadcrumb -->
 
+    <a name="top"> </a>
     <div id="segment-content" class="segment">    <!-- segment-content -->
       <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 4" class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">TBD - Local Development build (v0.0.1). See the <a href="https://ghit42796.github.io/fhir_test/index.html/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Taiwan Smart Certificate - Local Development build (v0.0.1). See the <a href="https://ghit42796.github.io/fhir_test/index.html/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   
 
 
@@ -604,7 +607,7 @@ The reason why a vaccine was administered.
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
-  <tr><td>Comments</td><td><p><a name="d3fe8378-16f4-4658-a645-c012050bc974">​</a>It is critical that Verifiers process this element if it exists and is set to <code>true</code>. Therefore, <code>isSubpotent</code> is marked as <code>MustSupport</code> because it is also flagged with <code>Is-Modifier</code>, and per the <a href="conformance.html">conformance requirements</a>, Verifiers SHALL "meaningfully process" elements that are <code>MustSupport</code> and <code>Is-Modifier</code>.</p>
+  <tr><td>Comments</td><td><p><a name="4a2d57b6-cc6d-4949-a365-1e17511bdbf2">​</a>It is critical that Verifiers process this element if it exists and is set to <code>true</code>. Therefore, <code>isSubpotent</code> is marked as <code>MustSupport</code> because it is also flagged with <code>Is-Modifier</code>, and per the <a href="conformance.html">conformance requirements</a>, Verifiers SHALL "meaningfully process" elements that are <code>MustSupport</code> and <code>Is-Modifier</code>.</p>
 <p>This element is therefore an exception to the guidance that Issuers must populate <code>MustSupport</code> elements if the data are available. An invariant is used to provide a computable representation of this exception: it will produce an error if <code>isSubpotent = false</code>, which is the expected value of this element for the vast majority of resources. Because full potency is implicit per this element's definition, we do not want to populate <code>isSubpotent</code> with <code>false</code> because it increases payload size without adding information.</p>
 <p>If <code>isSubpotent</code> was not allowed at all (<code>0..0</code> cardinality), the concern is that resources where <code>isSubpotent = true</code> would inadvertently be generated without any indication they were not potent.</p>
 </td></tr>
@@ -893,11 +896,13 @@ The vaccine preventable disease the dose is being administered for.
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
+
       <div class="inner-wrapper">
-        <p><a name="adaa22e9-5d9b-42bd-8956-720e5c189e47">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TBD#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 13, 2021 13:22+0800">2021-05-13</span>
+        <p><a name="4e943852-7474-4e01-ad2b-95b687627dab">​</a>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TSC#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 21, 2021 11:32+0800">2021-05-21</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

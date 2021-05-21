@@ -63,11 +63,11 @@
     "name": "VaccineCode for COVID-19"
   },
   {
-    "id": "example.fhir.TBD",
+    "id": "example.fhir.TSC",
     "type": "ImplementationGuide",
     "url": "https://ghit42796.github.io/fhir_test/index.html",
     "version": "0.0.1",
-    "name": "TBD"
+    "name": "Taiwan Smart Certificate"
   },
   {
     "id": "zmypatient",

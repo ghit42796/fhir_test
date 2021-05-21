@@ -1,5 +1,5 @@
 {
-  "package": "example.fhir.TBD",
+  "package": "example.fhir.TSC",
   "version": "0.0.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "TBD",

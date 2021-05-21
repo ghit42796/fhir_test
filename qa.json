@@ -1,12 +1,12 @@
 {
   "url": "https://ghit42796.github.io/fhir_test/index.html",
-  "name": "TBD",
-  "package-id": "example.fhir.TBD",
+  "name": "Taiwan Smart Certificate",
+  "package-id": "example.fhir.TSC",
   "ig-ver": "0.0.1",
-  "date": "Thu, 13 May, 2021 13:22:04 +0800",
+  "date": "Fri, 21 May, 2021 11:32:36 +0800",
   "errs": 74,
-  "warnings": 73,
+  "warnings": 74,
   "hints": 11,
   "version": "4.0.1",
-  "tool": "4.5.0 (3)"
+  "tool": "4.6.0 (3)"
 }
