@@ -10,12 +10,6 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
-    <sch:title>f:ImmunizationRecommendation</sch:title>
-    <sch:rule context="f:ImmunizationRecommendation">
-      <sch:assert test="count(f:authority) &gt;= 1">authority: minimum cardinality of 'authority' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>ImmunizationRecommendation</sch:title>
     <sch:rule context="f:ImmunizationRecommendation">
       <sch:assert test="not(parent::f:contained and f:contained)">If the resource is contained in another resource, it SHALL NOT contain nested Resources (inherited)</sch:assert>

@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Taiwan Smart Certificate"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-05-21T11:32:36+08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-05-27T14:07:31+08:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "TBD"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -331,26 +331,13 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Certificate-Binary-QR-code>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Certificate-Binary-QR-code" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-Binary QR code Profile" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent the Vaccine Certificate QR code with a Binary resource" ]
-     ], [
-       fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/Vaccine-Certificate-Bundle>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Vaccine-Certificate-Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-Bundle Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent a Vaccine Certificate in FHIR by using a Bundle resource" ]
      ], [
-       fhir:index 2;
+       fhir:index 1;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -363,7 +350,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-ImmunizationRecommendation Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Immunization Recommandations Profile for Vaccine Certificate" ]
      ], [
-       fhir:index 3;
+       fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -376,7 +363,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-Immunization Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Defines a profile representing a vaccination for a vaccine credential Health Card." ]
      ], [
-       fhir:index 4;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -389,7 +376,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-Observation Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent Test Results in a Vacccine Certificate." ]
      ], [
-       fhir:index 5;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -402,7 +389,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-Organization Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This profile defines how to represent Organization in a Vacccine Certificate." ]
      ], [
-       fhir:index 6;
+       fhir:index 5;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -415,7 +402,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-Patient Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Patient Profile for Vaccine Certificate" ]
      ], [
-       fhir:index 7;
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -428,7 +415,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vaccine-Certificate-Practitioner  Profile" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Container for an SVC Practitioner, which is a Practitioner authorized by the PHA to vaccinate an [SVC Patient](StructureDefinition-svc-patient.html)." ]
      ], [
-       fhir:index 8;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -441,7 +428,7 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "VaccineCode for COVID-19 ValueSet" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "VaccineCode for COVID-19" ]
      ], [
-       fhir:index 9;
+       fhir:index 8;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

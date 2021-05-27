@@ -5,12 +5,6 @@
   "jurisdiction": "TBD",
   "extensions": [],
   "profiles": {
-    "Binary": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Binary-QR-code",
-        "title": "Vaccine-Certificate-Binary QR code Profile"
-      }
-    ],
     "Bundle": [
       {
         "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",

@@ -1,12 +1,5 @@
 [
   {
-    "id": "Vaccine-Certificate-Binary-QR-code",
-    "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Binary-QR-code",
-    "version": "0.0.1",
-    "name": "VaccineCertificateBinaryQRcode"
-  },
-  {
     "id": "Vaccine-Certificate-Bundle",
     "type": "StructureDefinition",
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",

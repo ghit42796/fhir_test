@@ -38,7 +38,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ImmunizationRecommendation.date","","","",1,1,"Y","","Y","dateTime {[]} {[]}
 ","Date recommendation(s) created","The date the immunization recommendation(s) were created.","","","","","","","","","",,,,,"",,,,"ImmunizationRecommendation.date",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Request.authoredOn","OBX-15",".partipication[typeCode=AUTH].time"
-"ImmunizationRecommendation.authority","","","",1,1,"Y","","","Reference {[]} {[CanonicalType[https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization]]}
+"ImmunizationRecommendation.authority","","","",0,1,"","","","Reference {[]} {[CanonicalType[https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization]]}
 ","Who is responsible for protocol","Indicates the authority who published the protocol (e.g. ACIP).","","","","","","","","","",,,,,"",,,,"ImmunizationRecommendation.authority",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","OBX-5 : OBX-3 = 59779-9",".participation[typeCode=AUT]"
 "ImmunizationRecommendation.recommendation","","","",1,*,"","","Y","BackboneElement {[]} {[]}

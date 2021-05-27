@@ -527,7 +527,7 @@
       <path value="ImmunizationRecommendation.authority"/>
       <short value="Who is responsible for protocol"/>
       <definition value="Indicates the authority who published the protocol (e.g. ACIP)."/>
-      <min value="1"/>
+      <min value="0"/>
       <max value="1"/>
       <base>
         <path value="ImmunizationRecommendation.authority"/>
@@ -546,7 +546,6 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -1589,12 +1588,10 @@
     </element>
     <element id="ImmunizationRecommendation.authority">
       <path value="ImmunizationRecommendation.authority"/>
-      <min value="1"/>
       <type>
         <code value="Reference"/>
         <targetProfile value="https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization"/>
       </type>
-      <mustSupport value="true"/>
     </element>
     <element id="ImmunizationRecommendation.recommendation.vaccineCode">
       <path value="ImmunizationRecommendation.recommendation.vaccineCode"/>
