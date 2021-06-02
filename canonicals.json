@@ -1,5 +1,12 @@
 [
   {
+    "id": "Patient-TSC",
+    "type": "StructureDefinition",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Patient-TSC",
+    "version": "0.0.1",
+    "name": "PatientTSC"
+  },
+  {
     "id": "Vaccine-Certificate-Bundle",
     "type": "StructureDefinition",
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",
@@ -33,13 +40,6 @@
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization",
     "version": "0.0.1",
     "name": "Vaccine-Certificate-Organization"
-  },
-  {
-    "id": "Vaccine-Certificate-Patient",
-    "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Patient",
-    "version": "0.0.1",
-    "name": "Vaccine-Certificate-Patient"
   },
   {
     "id": "Vaccine-Certificate-Practitioner",

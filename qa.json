@@ -3,9 +3,9 @@
   "name": "Taiwan Smart Certificate",
   "package-id": "example.fhir.TSC",
   "ig-ver": "0.0.1",
-  "date": "Thu, 27 May, 2021 14:07:31 +0800",
-  "errs": 69,
-  "warnings": 71,
+  "date": "Wed, 02 Jun, 2021 11:19:02 +0800",
+  "errs": 65,
+  "warnings": 74,
   "hints": 10,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"

@@ -530,7 +530,7 @@ The reason why a vaccine was administered.
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
-  <tr><td>Comments</td><td><p><a name="f606e0fc-92ec-495e-b53d-5068e5c28501">​</a>It is critical that Verifiers process this element if it exists and is set to <code>true</code>. Therefore, <code>isSubpotent</code> is marked as <code>MustSupport</code> because it is also flagged with <code>Is-Modifier</code>, and per the <a href="conformance.html">conformance requirements</a>, Verifiers SHALL "meaningfully process" elements that are <code>MustSupport</code> and <code>Is-Modifier</code>.</p>
+  <tr><td>Comments</td><td><p><a name="697f3020-af55-4fa6-957b-d0db9916121e">​</a>It is critical that Verifiers process this element if it exists and is set to <code>true</code>. Therefore, <code>isSubpotent</code> is marked as <code>MustSupport</code> because it is also flagged with <code>Is-Modifier</code>, and per the <a href="conformance.html">conformance requirements</a>, Verifiers SHALL "meaningfully process" elements that are <code>MustSupport</code> and <code>Is-Modifier</code>.</p>
 <p>This element is therefore an exception to the guidance that Issuers must populate <code>MustSupport</code> elements if the data are available. An invariant is used to provide a computable representation of this exception: it will produce an error if <code>isSubpotent = false</code>, which is the expected value of this element for the vast majority of resources. Because full potency is implicit per this element's definition, we do not want to populate <code>isSubpotent</code> with <code>false</code> because it increases payload size without adding information.</p>
 <p>If <code>isSubpotent</code> was not allowed at all (<code>0..0</code> cardinality), the concern is that resources where <code>isSubpotent = true</code> would inadvertently be generated without any indication they were not potent.</p>
 </td></tr>
@@ -824,8 +824,8 @@ The vaccine preventable disease the dose is being administered for.
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="7d3d848d-683e-4d16-8ec3-93a41da7ea88">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TSC#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 27, 2021 14:07+0800">2021-05-27</span>
+        <p><a name="4e57e11e-76c0-4e46-995a-0b64e5876680">​</a>
+          IG &copy; 2019+ <a style="color: #81BEF7" href="TBD">TBD</a>.  Package example.fhir.TSC#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 2, 2021 11:19+0800">2021-06-02</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

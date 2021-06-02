@@ -5,6 +5,12 @@
   "jurisdiction": "TBD",
   "extensions": [],
   "profiles": {
+    "Patient": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/zmypatient",
+        "title": "My Favorite Patient Profile"
+      }
+    ],
     "Bundle": [
       {
         "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",
@@ -33,12 +39,6 @@
       {
         "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization",
         "title": "Vaccine-Certificate-Organization Profile"
-      }
-    ],
-    "Patient": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/zmypatient",
-        "title": "My Favorite Patient Profile"
       }
     ],
     "Practitioner": [
