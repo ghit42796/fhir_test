@@ -3,7 +3,7 @@
 
 err = 65, warn = 74, info = 10
 IG Publisher Version: 1.1.72 Out of date - current version is 1.1.75
-Generated Fri Jun 18 16:07:57 CST 2021. FHIR version 4.0.1 for example.fhir.TSC#0.0.1 (canonical = https://ghit42796.github.io/fhir_test/index.html)
+Generated Fri Jun 18 16:23:45 CST 2021. FHIR version 4.0.1 for example.fhir.TSC#0.0.1 (canonical = https://ghit42796.github.io/fhir_test/index.html)
 
  Build Errors : 117 / 2 / 0
  C:\Workspace\Python\FHIR\IG\FHIR_IG\input\myig : 4 / 1 / 2

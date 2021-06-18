@@ -920,7 +920,7 @@
         "path": "Immunization.primarySource",
         "short": "Information in this record from person who administered vaccine?",
         "definition": "An indication that the content of the record is based on information from the person who administered the vaccine. This reflects the context under which the data was originally recorded.",
-        "comment": "Reflects the “reliability” of the content.",
+        "comment": "Reflects the reliability of the content.",
         "min": 0,
         "max": "1",
         "base": {
