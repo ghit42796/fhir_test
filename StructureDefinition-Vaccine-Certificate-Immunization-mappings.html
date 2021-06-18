@@ -266,7 +266,19 @@
  <tr><td>&nbsp;&nbsp;&nbsp;primarySource</td><td>immunization.uncertaintycode (if primary source=false, uncertainty=U)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reportOrigin</td><td>.participation[typeCode=INF].role[classCode=PAT] (this syntax for self-reported) .participation[typeCode=INF].role[classCode=LIC] (this syntax for health care professional) .participation[typeCode=INF].role[classCode=PRS] (this syntax for family member)</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;location</td><td>.participation[typeCode=LOC].COCT_MT240000UV</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reference</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;manufacturer</td><td>.participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=ORG]</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reference</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;lotNumber</td><td>.participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].id</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;expirationDate</td><td>.participation[typeCode=CSM].role[classCode=INST].scopedRole.scoper[classCode=MMAT].expirationTime</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;site</td><td>observation.targetSiteCode</td> </tr>
@@ -278,6 +290,12 @@
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function</td><td>.participation.functionCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;actor</td><td>.player</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reference</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;identifier</td><td>.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;display</td><td>N/A</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;note</td><td>note</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reasonCode</td><td>[actionNegationInd=false].reasonCode</td> </tr>
  <tr><td>&nbsp;&nbsp;&nbsp;reasonReference</td><td>N/A</td> </tr>
@@ -389,8 +407,8 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="43da856a-6c0f-4b95-9f04-de0f7e41620a">​</a>
-          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="TBD">TBD</a>.  Package example.fhir.TSC#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 18, 2021 15:41+0800">2021-06-18</span>
+        <p><a name="8ca6f692-9dd9-4cd2-acdb-90e674a73535">​</a>
+          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="TBD">TBD</a>.  Package example.fhir.TSC#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 18, 2021 16:06+0800">2021-06-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
