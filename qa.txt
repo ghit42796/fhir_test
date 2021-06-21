@@ -1,15 +1,15 @@
 ﻿Taiwan Smart Certificate : Validation Results
 =========================================
 
-err = 63, warn = 74, info = 10
+err = 61, warn = 72, info = 10
 IG Publisher Version: 1.1.72 Out of date - current version is 1.1.75
-Generated Mon Jun 21 11:35:18 CST 2021. FHIR version 4.0.1 for example.fhir.TSC#0.0.1 (canonical = https://ghit42796.github.io/fhir_test/index.html)
+Generated Mon Jun 21 13:47:14 CST 2021. FHIR version 4.0.1 for example.fhir.TSC#0.0.1 (canonical = https://ghit42796.github.io/fhir_test/index.html)
 
  Build Errors : 117 / 2 / 0
  C:\Workspace\Python\FHIR\IG\FHIR_IG\input\myig : 4 / 1 / 2
  C:\Workspace\Python\FHIR\IG\FHIR_IG\input\resources\Bundle_Profile : 3 / 26 / 2
  C:\Workspace\Python\FHIR\IG\FHIR_IG\input\resources\ImmunizationRecommendation_Profile : 3 / 6 / 2
- C:\Workspace\Python\FHIR\IG\FHIR_IG\input\resources\Immunization_Profile : 23 / 22 / 2
+ C:\Workspace\Python\FHIR\IG\FHIR_IG\input\resources\Immunization_Profile : 21 / 20 / 2
  C:\Workspace\Python\FHIR\IG\FHIR_IG\input\resources\Observation_Profile : 5 / 8 / 2
  C:\Workspace\Python\FHIR\IG\FHIR_IG\input\resources\Organization_Profile : 6 / 2 / 2
  C:\Workspace\Python\FHIR\IG\FHIR_IG\input\resources\Patient_Profile : 3 / 1 / 2
@@ -74,15 +74,15 @@ ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Ce
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Bundle.profile.json.html#/html/body/div/div/div/p/a at Line 9885, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Bundle.profile.ttl.html#/html/body/div/div/div/p/a at Line 8758, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Bundle.profile.xml.html#/html/body/div/div/div/p/a at Line 8909, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 535, column 273: The link 'conformance.html' for "conformance requirements" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization-definitions.html#/html/body/div/div/div/p/a at Line 830, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization-definitions.html#/html/body/div/div/div/div/div/table/tr/td/p/a at Line 537, column 273: The link 'conformance.html' for "conformance requirements" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization-definitions.html#/html/body/div/div/div/p/a at Line 832, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization-examples.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization-mappings.html#/html/body/div/div/div/p/a at Line 397, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization.html#/html/body/div/div/div/p/a at Line 987, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization.profile.history.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization.profile.json.html#/html/body/div/div/div/p/a at Line 3443, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization.profile.json.html#/html/body/div/div/div/p/a at Line 3446, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 3028, column 28: The link 'TBD' for "TBD" cannot be resolved
-ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 3115, column 28: The link 'TBD' for "TBD" cannot be resolved
+ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-Immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 3114, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-ImmunizationRecommendation-definitions.html#/html/body/div/div/div/p/a at Line 624, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-ImmunizationRecommendation-examples.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'TBD' for "TBD" cannot be resolved
 ERROR: C:\Workspace\Python\FHIR\IG\FHIR_IG\output\StructureDefinition-Vaccine-Certificate-ImmunizationRecommendation-mappings.html#/html/body/div/div/div/p/a at Line 341, column 28: The link 'TBD' for "TBD" cannot be resolved
@@ -199,7 +199,6 @@ ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition
 INFORMATION: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'TBD' is unknown so the code cannot be validated
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[1].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[11].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set' does not resolve
-ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[12].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[18].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[21].constraint[1].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[23].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set' does not resolve
@@ -209,7 +208,6 @@ ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[52].type[0].targetProfile[0]: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[1].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[3].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set' does not resolve
-ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[4].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[8].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[11].constraint[0].source: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-immunization' does not resolve
 ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[12].binding.valueSet: Canonical URL 'http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set' does not resolve
@@ -220,7 +218,6 @@ ERROR: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element.where(path = 'Immunization.patient'): Cannot check whether the target profile https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-immunization is valid constraint on the base because it is not known
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element.where(path = 'Immunization.reaction.detail'): Cannot check whether the target profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation is valid constraint on the base because it is not known
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[3].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set on element Immunization.statusReason could not be resolved
-WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[4].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set on element Immunization.vaccineCode could not be resolved
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[5].type[0].targetProfile[0]: Unable to resolve profile https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-immunization
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[8].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set on element Immunization.reportOrigin could not be resolved
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[12].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set on element Immunization.site could not be resolved
@@ -228,7 +225,6 @@ WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefiniti
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[17].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-funding-source-value-set on element Immunization.fundingSource could not be resolved
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.differential.element[18].type[0].targetProfile[0]: Unable to resolve profile http://hl7.org/fhir/uv/smarthealthcards-vaccination/StructureDefinition/vaccine-credential-vaccine-reaction-observation
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[11].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-status-reason-value-set on element Immunization.statusReason could not be resolved
-WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[12].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set on element Immunization.vaccineCode could not be resolved
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[13].type[0].targetProfile[0]: Unable to resolve profile https://ghit42796.github.io/fhir_test/StructureDefinition-vaccine-credential-immunization
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[18].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-report-origin-value-set on element Immunization.reportOrigin could not be resolved
 WARNING: StructureDefinition/Vaccine-Certificate-Immunization: StructureDefinition.snapshot.element[23].binding: The valueSet reference http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-site-value-set on element Immunization.site could not be resolved

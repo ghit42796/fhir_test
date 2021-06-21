@@ -324,7 +324,9 @@ A set of codes indicating the current status of an Immunization.
   <tr><td>Definition</td><td><p>TBD</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>1..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set">http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set</a>; other codes may be used where these codes are not suitable</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-vaccine-code.html">VaccineAdministeredValueSet</a>
+The code for vaccine product administered.
+</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#mustSupport">Must Support</a></td><td>true</td></tr>
   <tr><td>Invariants</td><td><b>Defined on this element</b><br/>
@@ -528,7 +530,7 @@ The reason why a vaccine was administered.
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#boolean">boolean</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#ismodifier">Is Modifier</a></td><td>true</td></tr>
-  <tr><td>Comments</td><td><p><a name="699c97e0-8291-44f4-94e6-721eae5f2797">​</a>It is critical that Verifiers process this element if it exists and is set to <code>true</code>. Therefore, <code>isSubpotent</code> is marked as <code>MustSupport</code> because it is also flagged with <code>Is-Modifier</code>, and per the <a href="conformance.html">conformance requirements</a>, Verifiers SHALL "meaningfully process" elements that are <code>MustSupport</code> and <code>Is-Modifier</code>.</p>
+  <tr><td>Comments</td><td><p><a name="7f243714-a6f0-4cb9-b01d-2f386e47e070">​</a>It is critical that Verifiers process this element if it exists and is set to <code>true</code>. Therefore, <code>isSubpotent</code> is marked as <code>MustSupport</code> because it is also flagged with <code>Is-Modifier</code>, and per the <a href="conformance.html">conformance requirements</a>, Verifiers SHALL "meaningfully process" elements that are <code>MustSupport</code> and <code>Is-Modifier</code>.</p>
 <p>This element is therefore an exception to the guidance that Issuers must populate <code>MustSupport</code> elements if the data are available. An invariant is used to provide a computable representation of this exception: it will produce an error if <code>isSubpotent = false</code>, which is the expected value of this element for the vast majority of resources. Because full potency is implicit per this element's definition, we do not want to populate <code>isSubpotent</code> with <code>false</code> because it increases payload size without adding information.</p>
 <p>If <code>isSubpotent</code> was not allowed at all (<code>0..0</code> cardinality), the concern is that resources where <code>isSubpotent = true</code> would inadvertently be generated without any indication they were not potent.</p>
 </td></tr>
@@ -822,8 +824,8 @@ The vaccine preventable disease the dose is being administered for.
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="2709d63f-8bd3-4867-9339-552c699527f9">​</a>
-          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="TBD">TBD</a>.  Package example.fhir.TSC#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 21, 2021 11:34+0800">2021-06-21</span>
+        <p><a name="aff6c058-2ab1-498e-91c0-69b0805bdb9b">​</a>
+          IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="TBD">TBD</a>.  Package example.fhir.TSC#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 21, 2021 13:45+0800">2021-06-21</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

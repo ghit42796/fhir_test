@@ -585,8 +585,12 @@ Verifiers SHALL assume that if an Immunization resource is provided and `isSubpo
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
-        <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set"/>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="VaccineCode"/>
+        </extension>
+        <strength value="example"/>
+        <description value="The code for vaccine product administered."/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/vaccine-code"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -2488,10 +2492,6 @@ Verifiers SHALL assume that if an Immunization resource is provided and `isSubpo
       <path value="Immunization.vaccineCode"/>
       <definition value="TBD"/>
       <mustSupport value="true"/>
-      <binding>
-        <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set"/>
-      </binding>
     </element>
     <element id="Immunization.patient">
       <path value="Immunization.patient"/>

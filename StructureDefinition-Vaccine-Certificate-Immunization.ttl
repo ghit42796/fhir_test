@@ -720,10 +720,16 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
-         fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ];
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName" ];
+           fhir:Extension.valueString [ fhir:value "VaccineCode" ]
+         ];
+         fhir:ElementDefinition.binding.strength [ fhir:value "example" ];
+         fhir:ElementDefinition.binding.description [ fhir:value "The code for vaccine product administered." ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set";
-           fhir:link <http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set>
+           fhir:value "http://hl7.org/fhir/ValueSet/vaccine-code";
+           fhir:link <http://hl7.org/fhir/ValueSet/vaccine-code>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -3157,14 +3163,7 @@
        fhir:Element.id [ fhir:value "Immunization.vaccineCode" ];
        fhir:ElementDefinition.path [ fhir:value "Immunization.vaccineCode" ];
        fhir:ElementDefinition.definition [ fhir:value "TBD" ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.binding [
-         fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ];
-         fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set";
-           fhir:link <http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set>
-         ]
-       ]
+       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 5;
        fhir:Element.id [ fhir:value "Immunization.patient" ];

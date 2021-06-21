@@ -668,8 +668,15 @@
         "isModifier": false,
         "isSummary": true,
         "binding": {
-          "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set"
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
+              "valueString": "VaccineCode"
+            }
+          ],
+          "strength": "example",
+          "description": "The code for vaccine product administered.",
+          "valueSet": "http://hl7.org/fhir/ValueSet/vaccine-code"
         },
         "mapping": [
           {
@@ -2994,11 +3001,7 @@
         "id": "Immunization.vaccineCode",
         "path": "Immunization.vaccineCode",
         "definition": "TBD",
-        "mustSupport": true,
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "http://hl7.org/fhir/uv/smarthealthcards-vaccination/ValueSet/vaccine-credential-vaccine-value-set"
-        }
+        "mustSupport": true
       },
       {
         "id": "Immunization.patient",
