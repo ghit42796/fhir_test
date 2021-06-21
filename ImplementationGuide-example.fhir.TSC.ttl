@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Taiwan Smart Certificate"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2021-06-18T16:22:47+08:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-06-21T11:34:08+08:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "TBD"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
