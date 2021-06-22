@@ -1,11 +1,11 @@
 {
   "url": "https://ghit42796.github.io/fhir_test/index.html",
-  "name": "Taiwan Smart Certificate",
-  "package-id": "example.fhir.TSC",
+  "name": "Taiwan Digital COVID Certificate",
+  "package-id": "example.fhir.TDCC",
   "ig-ver": "0.0.1",
-  "date": "Mon, 21 Jun, 2021 13:45:59 +0800",
-  "errs": 61,
-  "warnings": 72,
+  "date": "Tue, 22 Jun, 2021 11:34:27 +0800",
+  "errs": 59,
+  "warnings": 55,
   "hints": 10,
   "version": "4.0.1",
   "tool": "4.6.0 (3)"

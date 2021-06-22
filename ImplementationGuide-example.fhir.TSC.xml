@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="example.fhir.TSC"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Taiwan Smart Certificate</h2><p>The official URL for this implementation guide is: </p><pre>https://ghit42796.github.io/fhir_test/index.html</pre><div><p>Taiwan Smart Certificate</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Taiwan Digital COVID Certificate</h2><p>The official URL for this implementation guide is: </p><pre>https://ghit42796.github.io/fhir_test/index.html</pre><div><p>Taiwan Digital COVID Certificate</p>
 </div></div>
   </text>
   <url value="https://ghit42796.github.io/fhir_test/index.html"/>
   <version value="0.0.1"/>
-  <name value="Taiwan Smart Certificate"/>
-  <title value="Taiwan Smart Certificate"/>
+  <name value="Taiwan Digital COVID Certificate"/>
+  <title value="Taiwan Digital COVID Certificate"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-06-21T13:45:59+08:00"/>
+  <date value="2021-06-22T11:34:27+08:00"/>
   <publisher value="TBD"/>
   <contact>
     <telecom>
@@ -20,14 +20,14 @@
       <value value="TBD"/>
     </telecom>
   </contact>
-  <description value="Taiwan Smart Certificate"/>
+  <description value="Taiwan Digital COVID Certificate"/>
   <jurisdiction>
     <coding>
       <system value="TBD"/>
       <code value="TBD"/>
     </coding>
   </jurisdiction>
-  <packageId value="example.fhir.TSC"/>
+  <packageId value="example.fhir.TDCC"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn>
@@ -220,9 +220,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Certificate-Bundle"/>
+        <reference value="StructureDefinition/Bundle-TDCC"/>
       </reference>
-      <name value="Vaccine-Certificate-Bundle Profile"/>
+      <name value="Bundle ( Taiwan Digital COVID Certificate )"/>
       <description value="This profile defines how to represent a Vaccine Certificate in FHIR by using a Bundle resource"/>
     </resource>
     <resource>
@@ -230,9 +230,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Certificate-ImmunizationRecommendation"/>
+        <reference value="StructureDefinition/ImmunizationRecommendation-TDCC"/>
       </reference>
-      <name value="Vaccine-Certificate-ImmunizationRecommendation Profile"/>
+      <name value="ImmunizationRecommendation ( Taiwan Digital COVID Certificate )"/>
       <description value="Immunization Recommandations Profile for Vaccine Certificate"/>
     </resource>
     <resource>
@@ -240,9 +240,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Certificate-Immunization"/>
+        <reference value="StructureDefinition/Immunization-TDCC"/>
       </reference>
-      <name value="Vaccine-Certificate-Immunization Profile"/>
+      <name value="Immunization ( Taiwan Digital COVID Certificate )"/>
       <description value="Defines a profile representing a vaccination for a vaccine credential Health Card."/>
     </resource>
     <resource>
@@ -250,9 +250,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Certificate-Observation"/>
+        <reference value="StructureDefinition/Vaccine-Certificate-Observation-TDCC"/>
       </reference>
-      <name value="Vaccine-Certificate-Observation Profile"/>
+      <name value="Observation ( Taiwan Digital COVID Certificate )"/>
       <description value="This profile defines how to represent Test Results in a Vacccine Certificate."/>
     </resource>
     <resource>
@@ -260,9 +260,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Certificate-Organization"/>
+        <reference value="StructureDefinition/Organization-TDCC"/>
       </reference>
-      <name value="Vaccine-Certificate-Organization Profile"/>
+      <name value="Organization ( Taiwan Digital COVID Certificate )"/>
       <description value="This profile defines how to represent Organization in a Vacccine Certificate."/>
     </resource>
     <resource>
@@ -270,9 +270,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Patient-TSC"/>
+        <reference value="StructureDefinition/Patient-TDCC"/>
       </reference>
-      <name value="Patient ( Taiwan Smart Certificate )"/>
+      <name value="Patient ( Taiwan Digital COVID Certificate )"/>
       <description value="Patient Profile for Vaccine Certificate"/>
     </resource>
     <resource>
@@ -280,9 +280,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Certificate-Practitioner"/>
+        <reference value="StructureDefinition/Practitioner-TDCC"/>
       </reference>
-      <name value="Vaccine-Certificate-Practitioner  Profile"/>
+      <name value="Practitioner ( Taiwan Digital COVID Certificate )"/>
       <description value="Container for an SVC Practitioner, which is a Practitioner authorized by the PHA to vaccinate an [SVC Patient](StructureDefinition-svc-patient.html)."/>
     </resource>
     <resource>

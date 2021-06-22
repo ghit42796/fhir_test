@@ -1,50 +1,50 @@
 {
-  "package": "example.fhir.TSC",
+  "package": "example.fhir.TDCC",
   "version": "0.0.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "TBD",
   "extensions": [],
   "profiles": {
+    "Bundle": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Bundle-TDCC",
+        "title": "Bundle ( Taiwan Digital COVID Certificate )"
+      }
+    ],
+    "Immunization": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Immunization-TDCC",
+        "title": "Immunization ( Taiwan Digital COVID Certificate )"
+      }
+    ],
+    "ImmunizationRecommendation": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-ImmunizationRecommendation-TDCC",
+        "title": "ImmunizationRecommendation ( Taiwan Digital COVID Certificate )"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Observation-TDCC",
+        "title": "Observation ( Taiwan Digital COVID Certificate )"
+      }
+    ],
+    "Organization": [
+      {
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Organization-TDCC",
+        "title": "Organization ( Taiwan Digital COVID Certificate )"
+      }
+    ],
     "Patient": [
       {
         "url": "https://ghit42796.github.io/fhir_test/index.html/StructureDefinition/zmypatient",
         "title": "My Favorite Patient Profile"
       }
     ],
-    "Bundle": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",
-        "title": "Vaccine-Certificate-Bundle Profile"
-      }
-    ],
-    "Immunization": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Immunization",
-        "title": "Vaccine-Certificate-Immunization Profile"
-      }
-    ],
-    "ImmunizationRecommendation": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-ImmunizationRecommendation",
-        "title": "Vaccine-Certificate-ImmunizationRecommendation Profile"
-      }
-    ],
-    "Observation": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Observation",
-        "title": "Vaccine-Certificate-Observation Profile"
-      }
-    ],
-    "Organization": [
-      {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization",
-        "title": "Vaccine-Certificate-Organization Profile"
-      }
-    ],
     "Practitioner": [
       {
-        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Practitioner",
-        "title": "Vaccine-Certificate-Practitioner  Profile"
+        "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Practitioner-TDCC",
+        "title": "Practitioner ( Taiwan Digital COVID Certificate )"
       }
     ]
   },
@@ -79,7 +79,6 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
-      "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [

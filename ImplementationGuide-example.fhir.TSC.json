@@ -3,15 +3,15 @@
   "id": "example.fhir.TSC",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Taiwan Smart Certificate</h2><p>The official URL for this implementation guide is: </p><pre>https://ghit42796.github.io/fhir_test/index.html</pre><div><p>Taiwan Smart Certificate</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Taiwan Digital COVID Certificate</h2><p>The official URL for this implementation guide is: </p><pre>https://ghit42796.github.io/fhir_test/index.html</pre><div><p>Taiwan Digital COVID Certificate</p>\n</div></div>"
   },
   "url": "https://ghit42796.github.io/fhir_test/index.html",
   "version": "0.0.1",
-  "name": "Taiwan Smart Certificate",
-  "title": "Taiwan Smart Certificate",
+  "name": "Taiwan Digital COVID Certificate",
+  "title": "Taiwan Digital COVID Certificate",
   "status": "draft",
   "experimental": false,
-  "date": "2021-06-21T13:45:59+08:00",
+  "date": "2021-06-22T11:34:27+08:00",
   "publisher": "TBD",
   "contact": [
     {
@@ -23,7 +23,7 @@
       ]
     }
   ],
-  "description": "Taiwan Smart Certificate",
+  "description": "Taiwan Digital COVID Certificate",
   "jurisdiction": [
     {
       "coding": [
@@ -34,7 +34,7 @@
       ]
     }
   ],
-  "packageId": "example.fhir.TSC",
+  "packageId": "example.fhir.TDCC",
   "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
@@ -350,9 +350,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Certificate-Bundle"
+          "reference": "StructureDefinition/Bundle-TDCC"
         },
-        "name": "Vaccine-Certificate-Bundle Profile",
+        "name": "Bundle ( Taiwan Digital COVID Certificate )",
         "description": "This profile defines how to represent a Vaccine Certificate in FHIR by using a Bundle resource"
       },
       {
@@ -363,9 +363,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Certificate-ImmunizationRecommendation"
+          "reference": "StructureDefinition/ImmunizationRecommendation-TDCC"
         },
-        "name": "Vaccine-Certificate-ImmunizationRecommendation Profile",
+        "name": "ImmunizationRecommendation ( Taiwan Digital COVID Certificate )",
         "description": "Immunization Recommandations Profile for Vaccine Certificate"
       },
       {
@@ -376,9 +376,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Certificate-Immunization"
+          "reference": "StructureDefinition/Immunization-TDCC"
         },
-        "name": "Vaccine-Certificate-Immunization Profile",
+        "name": "Immunization ( Taiwan Digital COVID Certificate )",
         "description": "Defines a profile representing a vaccination for a vaccine credential Health Card."
       },
       {
@@ -389,9 +389,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Certificate-Observation"
+          "reference": "StructureDefinition/Vaccine-Certificate-Observation-TDCC"
         },
-        "name": "Vaccine-Certificate-Observation Profile",
+        "name": "Observation ( Taiwan Digital COVID Certificate )",
         "description": "This profile defines how to represent Test Results in a Vacccine Certificate."
       },
       {
@@ -402,9 +402,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Certificate-Organization"
+          "reference": "StructureDefinition/Organization-TDCC"
         },
-        "name": "Vaccine-Certificate-Organization Profile",
+        "name": "Organization ( Taiwan Digital COVID Certificate )",
         "description": "This profile defines how to represent Organization in a Vacccine Certificate."
       },
       {
@@ -415,9 +415,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Patient-TSC"
+          "reference": "StructureDefinition/Patient-TDCC"
         },
-        "name": "Patient ( Taiwan Smart Certificate )",
+        "name": "Patient ( Taiwan Digital COVID Certificate )",
         "description": "Patient Profile for Vaccine Certificate"
       },
       {
@@ -428,9 +428,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Certificate-Practitioner"
+          "reference": "StructureDefinition/Practitioner-TDCC"
         },
-        "name": "Vaccine-Certificate-Practitioner  Profile",
+        "name": "Practitioner ( Taiwan Digital COVID Certificate )",
         "description": "Container for an SVC Practitioner, which is a Practitioner authorized by the PHA to vaccinate an [SVC Patient](StructureDefinition-svc-patient.html)."
       },
       {

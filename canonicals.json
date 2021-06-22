@@ -1,52 +1,52 @@
 [
   {
-    "id": "Patient-TSC",
+    "id": "Bundle-TDCC",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Patient-TSC",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Bundle-TDCC",
     "version": "0.0.1",
-    "name": "PatientTSC"
+    "name": "BundleTDCC"
   },
   {
-    "id": "Vaccine-Certificate-Bundle",
+    "id": "Immunization-TDCC",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Bundle",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Immunization-TDCC",
     "version": "0.0.1",
-    "name": "Vaccine-Certificate-Bundle"
+    "name": "ImmunizationTDCC"
   },
   {
-    "id": "Vaccine-Certificate-Immunization",
+    "id": "ImmunizationRecommendation-TDCC",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Immunization",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-ImmunizationRecommendation-TDCC",
     "version": "0.0.1",
-    "name": "Vaccine-Certificate-Immunization"
+    "name": "ImmunizationRecommendationTDCC"
   },
   {
-    "id": "Vaccine-Certificate-ImmunizationRecommendation",
+    "id": "Vaccine-Certificate-Observation-TDCC",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-ImmunizationRecommendation",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Observation-TDCC",
     "version": "0.0.1",
-    "name": "Vaccine-Certificate-ImmunizationRecommendation"
+    "name": "ObservationTDCC"
   },
   {
-    "id": "Vaccine-Certificate-Observation",
+    "id": "Organization-TDCC",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Observation",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Organization-TDCC",
     "version": "0.0.1",
-    "name": "Vaccine-Certificate-Observation"
+    "name": "OrganizationTDCC"
   },
   {
-    "id": "Vaccine-Certificate-Organization",
+    "id": "Patient-TDCC",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Organization",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Patient-TDCC",
     "version": "0.0.1",
-    "name": "Vaccine-Certificate-Organization"
+    "name": "PatientTDCC"
   },
   {
-    "id": "Vaccine-Certificate-Practitioner",
+    "id": "Practitioner-TDCC",
     "type": "StructureDefinition",
-    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Vaccine-Certificate-Practitioner",
+    "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Practitioner-TDCC",
     "version": "0.0.1",
-    "name": "Vaccine-Certificate-Practitioner"
+    "name": "PractitionerTDCC"
   },
   {
     "id": "covid-19-vaccine-code",
@@ -60,7 +60,7 @@
     "type": "ImplementationGuide",
     "url": "https://ghit42796.github.io/fhir_test/index.html",
     "version": "0.0.1",
-    "name": "Taiwan Smart Certificate"
+    "name": "Taiwan Digital COVID Certificate"
   },
   {
     "id": "zmypatient",
