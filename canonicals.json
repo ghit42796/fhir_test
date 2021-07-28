@@ -21,7 +21,7 @@
     "name": "ImmunizationRecommendationTDCC"
   },
   {
-    "id": "Vaccine-Certificate-Observation-TDCC",
+    "id": "Observation-TDCC",
     "type": "StructureDefinition",
     "url": "https://ghit42796.github.io/fhir_test/StructureDefinition-Observation-TDCC",
     "version": "0.0.1",

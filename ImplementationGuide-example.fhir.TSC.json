@@ -11,7 +11,7 @@
   "title": "Taiwan Digital COVID Certificate",
   "status": "draft",
   "experimental": false,
-  "date": "2021-06-22T11:34:27+08:00",
+  "date": "2021-07-28T17:53:42+08:00",
   "publisher": "TBD",
   "contact": [
     {
@@ -389,7 +389,7 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/Vaccine-Certificate-Observation-TDCC"
+          "reference": "StructureDefinition/Observation-TDCC"
         },
         "name": "Observation ( Taiwan Digital COVID Certificate )",
         "description": "This profile defines how to represent Test Results in a Vacccine Certificate."

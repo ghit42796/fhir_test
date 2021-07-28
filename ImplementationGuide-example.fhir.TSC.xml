@@ -12,7 +12,7 @@
   <title value="Taiwan Digital COVID Certificate"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-06-22T11:34:27+08:00"/>
+  <date value="2021-07-28T17:53:42+08:00"/>
   <publisher value="TBD"/>
   <contact>
     <telecom>
@@ -250,7 +250,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/Vaccine-Certificate-Observation-TDCC"/>
+        <reference value="StructureDefinition/Observation-TDCC"/>
       </reference>
       <name value="Observation ( Taiwan Digital COVID Certificate )"/>
       <description value="This profile defines how to represent Test Results in a Vacccine Certificate."/>
