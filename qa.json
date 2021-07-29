@@ -3,7 +3,7 @@
   "name": "Taiwan Digital COVID Certificate",
   "package-id": "example.fhir.TDCC",
   "ig-ver": "0.0.1",
-  "date": "Wed, 28 Jul, 2021 17:53:42 +0800",
+  "date": "Thu, 29 Jul, 2021 09:02:36 +0800",
   "errs": 74,
   "warnings": 57,
   "hints": 10,
